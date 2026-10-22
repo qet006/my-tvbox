@@ -5,154 +5,154 @@
  "sites": [
   {
    "key": "lziapi",
-   "name": "★LZIAPI·16万",
+   "name": "★量子资源",
    "type": "cms",
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "xinlang",
-   "name": "XINLANG·11万",
+   "name": "新浪资源",
    "type": "cms",
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "jyzy",
-   "name": "JYZY·11万",
+   "name": "金鹰资源",
    "type": "cms",
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "guangsu",
-   "name": "★GUANGSU·11万",
+   "name": "★光速资源",
    "type": "cms",
    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "hhzy",
-   "name": "HHZY·11万",
+   "name": "火狐资源",
    "type": "cms",
    "api": "https://hhzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "jszyapi",
-   "name": "JSZYAPI·11万",
+   "name": "极速资源",
    "type": "cms",
    "api": "https://jszyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "ffzy",
-   "name": "★FFZY·9万",
+   "name": "★非凡资源",
    "type": "cms",
    "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "dytt",
-   "name": "★DYTT·8万",
+   "name": "★电影天堂",
    "type": "cms",
    "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "360zy",
-   "name": "360ZY·7万",
+   "name": "360资源",
    "type": "cms",
    "api": "https://360zy.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "bfzy",
-   "name": "BFZY·16万",
+   "name": "暴风资源",
    "type": "cms",
    "api": "https://bfzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "subo",
-   "name": "★SUBO·11万",
+   "name": "★素博资源",
    "type": "cms",
    "api": "https://subocaiji.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "huyaapi",
-   "name": "HUYAAPI·11万",
+   "name": "虎牙资源",
    "type": "cms",
    "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
    "searchable": 1
   },
   {
    "key": "cxkjg",
-   "name": "CXKJG·1万",
+   "name": "创享资源",
    "type": "cms",
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "searchable": 1
   },
   {
    "key": "apibdzy",
-   "name": "APIBDZY·4万",
+   "name": "百度资源",
    "type": "cms",
    "api": "https://api.apibdzy.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "ffzyapi",
-   "name": "FFZYAPI·9万",
+   "name": "非凡备用",
    "type": "cms",
    "api": "https://api.ffzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
    "key": "lzizy",
-   "name": "LZIZY·16万",
+   "name": "量子备用",
    "type": "cms",
    "api": "https://lzizy1.com/api.php/provide/vod/",
    "searchable": 0
   },
   {
    "key": "suonia",
-   "name": "SUONIA·14万",
+   "name": "索尼资源",
    "type": "cms",
    "api": "https://suoniapi.com/api.php/provide/vod/",
    "searchable": 0
   },
   {
    "key": "sdzy",
-   "name": "SDZY·12万",
+   "name": "闪电资源",
    "type": "cms",
    "api": "http://sdzyapi.com/api.php/provide/vod/",
    "searchable": 0
   },
   {
    "key": "tyyszy",
-   "name": "TYYSZY·7万",
+   "name": "天涯资源",
    "type": "cms",
    "api": "http://tyyszy.com/api.php/provide/vod/",
    "searchable": 0
   },
   {
    "key": "mtzy",
-   "name": "MTZY·15万",
+   "name": "茅台资源",
    "type": "cms",
    "api": "https://mtzy.me/api.php/provide/vod/",
    "searchable": 0
   },
   {
    "key": "dbzy",
-   "name": "DBZY·14万",
+   "name": "豆瓣资源",
    "type": "cms",
    "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
    "searchable": 0
   },
   {
    "key": "wujinapi",
-   "name": "WUJINAPI·12万",
+   "name": "无尽资源",
    "type": "cms",
    "api": "https://api.wujinapi.net/api.php/provide/vod/",
    "searchable": 0
@@ -160,14 +160,9 @@
  ],
  "lives": [
   {
-   "name": "zbds-iptv4",
+   "name": "直播·精选(仅存活)",
    "type": 0,
-   "url": "https://live.zbds.top/tv/iptv4.txt"
-  },
-  {
-   "name": "YanG-Gather",
-   "type": 0,
-   "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"
+   "url": "http://127.0.0.1:8899/live.txt"
   }
  ],
  "tvboxDesktop": {

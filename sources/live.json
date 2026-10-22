@@ -3,28 +3,24 @@
  "updated": "2026-10-22",
  "lists": [
   {
-   "name": "zbds-iptv4",
-   "url": "https://live.zbds.top/tv/iptv4.txt",
+   "name": "直播·精选(仅存活)",
+   "url": "http://127.0.0.1:8899/live.txt",
    "type": 0,
    "priority": 1,
-   "measured": {
-    "total": 697,
-    "alive": 514,
-    "rate": 0.737,
-    "cctv": "14/52",
-    "satellite": "33/87"
-   }
-  },
-  {
-   "name": "YanG-Gather",
-   "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-   "type": 0,
-   "priority": 2,
-   "measured": {
-    "total": 123,
-    "alive": 59,
-    "rate": 0.48
-   }
+   "groups": [
+    "央视频道",
+    "卫视频道",
+    "地方频道",
+    "体育频道",
+    "电影频道",
+    "纪录频道",
+    "儿童频道",
+    "音乐频道",
+    "数字频道",
+    "春晚频道",
+    "直播中国"
+   ],
+   "note": "上线后改成 https://raw.githubusercontent.com/<user>/my-tvbox/main/dist/live.txt"
   }
  ],
  "policy": {

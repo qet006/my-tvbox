@@ -1,16 +1,16 @@
 {
- "updated": "2026-10-22T08:55:19Z",
+ "updated": "2026-10-22T08:57:23Z",
  "counts": {
   "active": 22,
   "searchable": 15,
   "sites_standard": 22,
   "sites_pc": 22,
-  "lives": 2
+  "lives": 1
  },
  "sources": [
   {
    "key": "lziapi",
-   "name": "★LZIAPI·16万",
+   "name": "★量子资源",
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -20,7 +20,7 @@
   },
   {
    "key": "xinlang",
-   "name": "XINLANG·11万",
+   "name": "新浪资源",
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -30,7 +30,7 @@
   },
   {
    "key": "jyzy",
-   "name": "JYZY·11万",
+   "name": "金鹰资源",
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -40,7 +40,7 @@
   },
   {
    "key": "guangsu",
-   "name": "★GUANGSU·11万",
+   "name": "★光速资源",
    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -50,7 +50,7 @@
   },
   {
    "key": "hhzy",
-   "name": "HHZY·11万",
+   "name": "火狐资源",
    "api": "https://hhzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -60,7 +60,7 @@
   },
   {
    "key": "jszyapi",
-   "name": "JSZYAPI·11万",
+   "name": "极速资源",
    "api": "https://jszyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -70,7 +70,7 @@
   },
   {
    "key": "ffzy",
-   "name": "★FFZY·9万",
+   "name": "★非凡资源",
    "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -80,7 +80,7 @@
   },
   {
    "key": "dytt",
-   "name": "★DYTT·8万",
+   "name": "★电影天堂",
    "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -90,7 +90,7 @@
   },
   {
    "key": "360zy",
-   "name": "360ZY·7万",
+   "name": "360资源",
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
@@ -100,7 +100,7 @@
   },
   {
    "key": "bfzy",
-   "name": "BFZY·16万",
+   "name": "暴风资源",
    "api": "https://bfzyapi.com/api.php/provide/vod/",
    "score": 95.0,
    "searchable": 1,
@@ -110,7 +110,7 @@
   },
   {
    "key": "subo",
-   "name": "★SUBO·11万",
+   "name": "★素博资源",
    "api": "https://subocaiji.com/api.php/provide/vod/",
    "score": 95.0,
    "searchable": 1,
@@ -120,7 +120,7 @@
   },
   {
    "key": "huyaapi",
-   "name": "HUYAAPI·11万",
+   "name": "虎牙资源",
    "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
    "score": 95.0,
    "searchable": 1,
@@ -130,7 +130,7 @@
   },
   {
    "key": "cxkjg",
-   "name": "CXKJG·1万",
+   "name": "创享资源",
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "score": 95.0,
    "searchable": 1,
@@ -140,7 +140,7 @@
   },
   {
    "key": "apibdzy",
-   "name": "APIBDZY·4万",
+   "name": "百度资源",
    "api": "https://api.apibdzy.com/api.php/provide/vod/",
    "score": 90.0,
    "searchable": 1,
@@ -150,7 +150,7 @@
   },
   {
    "key": "ffzyapi",
-   "name": "FFZYAPI·9万",
+   "name": "非凡备用",
    "api": "https://api.ffzyapi.com/api.php/provide/vod",
    "score": null,
    "searchable": 1,
@@ -160,7 +160,7 @@
   },
   {
    "key": "lzizy",
-   "name": "LZIZY·16万",
+   "name": "量子备用",
    "api": "https://lzizy1.com/api.php/provide/vod/",
    "score": 85.0,
    "searchable": 0,
@@ -170,7 +170,7 @@
   },
   {
    "key": "suonia",
-   "name": "SUONIA·14万",
+   "name": "索尼资源",
    "api": "https://suoniapi.com/api.php/provide/vod/",
    "score": 85.0,
    "searchable": 0,
@@ -180,7 +180,7 @@
   },
   {
    "key": "sdzy",
-   "name": "SDZY·12万",
+   "name": "闪电资源",
    "api": "http://sdzyapi.com/api.php/provide/vod/",
    "score": 85.0,
    "searchable": 0,
@@ -190,7 +190,7 @@
   },
   {
    "key": "tyyszy",
-   "name": "TYYSZY·7万",
+   "name": "天涯资源",
    "api": "http://tyyszy.com/api.php/provide/vod/",
    "score": 85.0,
    "searchable": 0,
@@ -200,7 +200,7 @@
   },
   {
    "key": "mtzy",
-   "name": "MTZY·15万",
+   "name": "茅台资源",
    "api": "https://mtzy.me/api.php/provide/vod/",
    "score": 80.0,
    "searchable": 0,
@@ -210,7 +210,7 @@
   },
   {
    "key": "dbzy",
-   "name": "DBZY·14万",
+   "name": "豆瓣资源",
    "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
    "score": 80.0,
    "searchable": 0,
@@ -220,7 +220,7 @@
   },
   {
    "key": "wujinapi",
-   "name": "WUJINAPI·12万",
+   "name": "无尽资源",
    "api": "https://api.wujinapi.net/api.php/provide/vod/",
    "score": 80.0,
    "searchable": 0,
