@@ -1,0 +1,38 @@
+name: 健康检查与重建
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'      # 每 6 小时（UTC）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: my-tvbox-health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 测活并降级失效源
+        run: python scripts/check_health.py
+      - name: 重建配置产物
+        run: python scripts/build_config.py
+      - name: 提交变更
+        run: |
+          git config user.name  "my-tvbox-bot"
+          git config user.email "my-tvbox-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore(health): $(date -u +'%Y-%m-%d %H:%M') UTC 健康检查"
+            git push
+          fi

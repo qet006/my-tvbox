@@ -1,0 +1,183 @@
+{
+ "format": "tvbox-desktop/1",
+ "name": "my-tvbox 活源",
+ "note": "自动生成：全部源经过四级测活（列表/搜索/详情/m3u8 首行）",
+ "sites": [
+  {
+   "key": "lziapi",
+   "name": "★LZIAPI·16万",
+   "type": "cms",
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "xinlang",
+   "name": "XINLANG·11万",
+   "type": "cms",
+   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "jyzy",
+   "name": "JYZY·11万",
+   "type": "cms",
+   "api": "https://jyzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "guangsu",
+   "name": "★GUANGSU·11万",
+   "type": "cms",
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "hhzy",
+   "name": "HHZY·11万",
+   "type": "cms",
+   "api": "https://hhzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "jszyapi",
+   "name": "JSZYAPI·11万",
+   "type": "cms",
+   "api": "https://jszyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "ffzy",
+   "name": "★FFZY·9万",
+   "type": "cms",
+   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "dytt",
+   "name": "★DYTT·8万",
+   "type": "cms",
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "360zy",
+   "name": "360ZY·7万",
+   "type": "cms",
+   "api": "https://360zy.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "bfzy",
+   "name": "BFZY·16万",
+   "type": "cms",
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "subo",
+   "name": "★SUBO·11万",
+   "type": "cms",
+   "api": "https://subocaiji.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "huyaapi",
+   "name": "HUYAAPI·11万",
+   "type": "cms",
+   "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
+   "searchable": 1
+  },
+  {
+   "key": "cxkjg",
+   "name": "CXKJG·1万",
+   "type": "cms",
+   "api": "https://ys.cxkjg.cn/api/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "apibdzy",
+   "name": "APIBDZY·4万",
+   "type": "cms",
+   "api": "https://api.apibdzy.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "ffzyapi",
+   "name": "FFZYAPI·9万",
+   "type": "cms",
+   "api": "https://api.ffzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "lzizy",
+   "name": "LZIZY·16万",
+   "type": "cms",
+   "api": "https://lzizy1.com/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "suonia",
+   "name": "SUONIA·14万",
+   "type": "cms",
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "sdzy",
+   "name": "SDZY·12万",
+   "type": "cms",
+   "api": "http://sdzyapi.com/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "tyyszy",
+   "name": "TYYSZY·7万",
+   "type": "cms",
+   "api": "http://tyyszy.com/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "mtzy",
+   "name": "MTZY·15万",
+   "type": "cms",
+   "api": "https://mtzy.me/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "dbzy",
+   "name": "DBZY·14万",
+   "type": "cms",
+   "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "wujinapi",
+   "name": "WUJINAPI·12万",
+   "type": "cms",
+   "api": "https://api.wujinapi.net/api.php/provide/vod/",
+   "searchable": 0
+  }
+ ],
+ "lives": [
+  {
+   "name": "zbds-iptv4",
+   "type": 0,
+   "url": "https://live.zbds.top/tv/iptv4.txt"
+  },
+  {
+   "name": "YanG-Gather",
+   "type": 0,
+   "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"
+  }
+ ],
+ "tvboxDesktop": {
+  "home": {
+   "sections": [
+    {
+     "title": "电影 · 最近更新",
+     "site": "lziapi"
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,46 @@
+name: 发现新源并转正
+
+on:
+  schedule:
+    - cron: '0 3 * * *'        # 每天 03:00 UTC = 北京 11:00
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: my-tvbox-discover
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 扫描新源（连续两日存活才转正）
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/discover.py
+      - name: 重建配置
+        run: python scripts/build_config.py
+      - name: 提交并汇总
+        run: |
+          git config user.name  "my-tvbox-bot"
+          git config user.email "my-tvbox-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无新增"
+          else
+            git commit -m "feat(discover): $(date -u +'%Y-%m-%d') 新源发现"
+            git push
+          fi
+          python - <<'PY'
+          import json
+          a=json.load(open('sources/allowed.json',encoding='utf-8'))
+          s=a.get('stats',{})
+          print(f"当前 active {s.get('active')} 个源")
+          PY

@@ -1,0 +1,232 @@
+{
+ "updated": "2026-10-22T08:53:37Z",
+ "counts": {
+  "active": 22,
+  "searchable": 15,
+  "sites_standard": 22,
+  "sites_pc": 22,
+  "lives": 2
+ },
+ "sources": [
+  {
+   "key": "lziapi",
+   "name": "★LZIAPI·16万",
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 160401,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "xinlang",
+   "name": "XINLANG·11万",
+   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 116135,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "jyzy",
+   "name": "JYZY·11万",
+   "api": "https://jyzyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 116115,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "guangsu",
+   "name": "★GUANGSU·11万",
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 116103,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "hhzy",
+   "name": "HHZY·11万",
+   "api": "https://hhzyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 115197,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "jszyapi",
+   "name": "JSZYAPI·11万",
+   "api": "https://jszyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 114438,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "ffzy",
+   "name": "★FFZY·9万",
+   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 98722,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "dytt",
+   "name": "★DYTT·8万",
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 84703,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "360zy",
+   "name": "360ZY·7万",
+   "api": "https://360zy.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 73515,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "bfzy",
+   "name": "BFZY·16万",
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "score": 95.0,
+   "searchable": 1,
+   "total": 166007,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "subo",
+   "name": "★SUBO·11万",
+   "api": "https://subocaiji.com/api.php/provide/vod/",
+   "score": 95.0,
+   "searchable": 1,
+   "total": 116028,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "huyaapi",
+   "name": "HUYAAPI·11万",
+   "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
+   "score": 95.0,
+   "searchable": 1,
+   "total": 115049,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "cxkjg",
+   "name": "CXKJG·1万",
+   "api": "https://ys.cxkjg.cn/api/provide/vod/",
+   "score": 95.0,
+   "searchable": 1,
+   "total": 14889,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "apibdzy",
+   "name": "APIBDZY·4万",
+   "api": "https://api.apibdzy.com/api.php/provide/vod/",
+   "score": 90.0,
+   "searchable": 1,
+   "total": 49396,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "ffzyapi",
+   "name": "FFZYAPI·9万",
+   "api": "https://api.ffzyapi.com/api.php/provide/vod",
+   "score": null,
+   "searchable": 1,
+   "total": 98722,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "lzizy",
+   "name": "LZIZY·16万",
+   "api": "https://lzizy1.com/api.php/provide/vod/",
+   "score": 85.0,
+   "searchable": 0,
+   "total": 160401,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "suonia",
+   "name": "SUONIA·14万",
+   "api": "https://suoniapi.com/api.php/provide/vod/",
+   "score": 85.0,
+   "searchable": 0,
+   "total": 147178,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "sdzy",
+   "name": "SDZY·12万",
+   "api": "http://sdzyapi.com/api.php/provide/vod/",
+   "score": 85.0,
+   "searchable": 0,
+   "total": 124475,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "tyyszy",
+   "name": "TYYSZY·7万",
+   "api": "http://tyyszy.com/api.php/provide/vod/",
+   "score": 85.0,
+   "searchable": 0,
+   "total": 72932,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "mtzy",
+   "name": "MTZY·15万",
+   "api": "https://mtzy.me/api.php/provide/vod/",
+   "score": 80.0,
+   "searchable": 0,
+   "total": 150989,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "dbzy",
+   "name": "DBZY·14万",
+   "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
+   "score": 80.0,
+   "searchable": 0,
+   "total": 148237,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "wujinapi",
+   "name": "WUJINAPI·12万",
+   "api": "https://api.wujinapi.net/api.php/provide/vod/",
+   "score": 80.0,
+   "searchable": 0,
+   "total": 123130,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  }
+ ]
+}

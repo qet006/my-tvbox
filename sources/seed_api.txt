@@ -1,0 +1,2 @@
+# 一行一个候选接口，discover.py 会自动测活并走「连续两日存活」转正流程
+# 例：https://example.com/api.php/provide/vod

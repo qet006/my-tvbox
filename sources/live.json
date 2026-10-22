@@ -1,0 +1,35 @@
+{
+ "schema": "my-tvbox/live/1",
+ "updated": "2026-10-22",
+ "lists": [
+  {
+   "name": "zbds-iptv4",
+   "url": "https://live.zbds.top/tv/iptv4.txt",
+   "type": 0,
+   "priority": 1,
+   "measured": {
+    "total": 697,
+    "alive": 514,
+    "rate": 0.737,
+    "cctv": "14/52",
+    "satellite": "33/87"
+   }
+  },
+  {
+   "name": "YanG-Gather",
+   "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+   "type": 0,
+   "priority": 2,
+   "measured": {
+    "total": 123,
+    "alive": 59,
+    "rate": 0.48
+   }
+  }
+ ],
+ "policy": {
+  "max_lists": 4,
+  "drop_rate_below": 0.3,
+  "probe_timeout": 5
+ }
+}
