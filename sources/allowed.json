@@ -368,29 +368,18 @@
  },
  "desktop_home": [
   {
-   "title": "动作片 · 非凡资源",
-   "site": "ffzy",
-   "typeId": 6
+   "title": "最近更新",
+   "site": "ffzy"
   },
   {
-   "title": "国产剧 · 量子资源",
+   "title": "国漫 · 最新",
+   "site": "guangsu",
+   "typeId": 41
+  },
+  {
+   "title": "国产剧 · 最新",
    "site": "lziapi",
    "typeId": 13
-  },
-  {
-   "title": "电影 · 光速资源",
-   "site": "guangsu",
-   "typeId": 1
-  },
-  {
-   "title": "动作片 · 电影天堂",
-   "site": "dytt",
-   "typeId": 6
-  },
-  {
-   "title": "大陆综艺 · 素博资源",
-   "site": "subo",
-   "typeId": 33
   }
  ],
  "desktop_note": "首页板块：只指向实测有内容的分类（type_id 经逐个验证）"
