@@ -9,15 +9,15 @@ GitHub Actions 每 12 小时自动重跑，死源自动降级、淘汰、复活�
 
 ## 一、客户端配置地址
 
-部署后把下面任意一条填进客户端的「配置地址」（把 `{owner}` 换成你的 GitHub 用户名）：
+部署后把下面任意一条填进客户端的「配置地址」（把 `xiaopeng-97` 换成你的 GitHub 用户名）：
 
 | 客户端 | 地址 |
 |---|---|
-| **TVBox Desktop**（推荐） | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/tvbox-desktop.json` |
-| TVBoxPC / TVBox 通用 | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/tvbox.json` |
-| TVBoxPC 增强（含 jar 蜘蛛） | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/tvbox-pc.json` |
+| **TVBox Desktop**（推荐） | `https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/tvbox-desktop.json` |
+| TVBoxPC / TVBox 通用 | `https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/tvbox.json` |
+| TVBoxPC 增强（含 jar 蜘蛛） | `https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/tvbox-pc.json` |
 | zyfun / ZyPlayer | 用上面的 `tvbox.json`（其 `tbl_site` 的 `type=1` 即苹果CMS） |
-| 多仓订阅 | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/multi.json` |
+| 多仓订阅 | `https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/multi.json` |
 
 GitHub 直连慢的话，在前面加反代前缀：`https://gh-proxy.com/` + 原地址。
 
@@ -165,4 +165,4 @@ python -m http.server 8899 --bind 127.0.0.1 --directory dist
 
 ---
 
-![活源](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/badge.json)
+![活源](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/badge.json)
