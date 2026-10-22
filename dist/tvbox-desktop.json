@@ -60,24 +60,10 @@
    "searchable": 1
   },
   {
-   "key": "jszyapi",
-   "name": "极速资源",
-   "type": "cms",
-   "api": "https://jszyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "360zy",
    "name": "360资源",
    "type": "cms",
    "api": "https://360zy.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "bfzy",
-   "name": "暴风资源",
-   "type": "cms",
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
@@ -95,6 +81,20 @@
    "searchable": 1
   },
   {
+   "key": "jszyapi",
+   "name": "极速资源",
+   "type": "cms",
+   "api": "https://jszyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "bfzy",
+   "name": "暴风资源",
+   "type": "cms",
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
    "key": "apibdzy",
    "name": "百度资源",
    "type": "cms",
@@ -107,6 +107,20 @@
    "type": "cms",
    "api": "https://api.ffzyapi.com/api.php/provide/vod/",
    "searchable": 1
+  },
+  {
+   "key": "mtzy",
+   "name": "茅台资源",
+   "type": "cms",
+   "api": "https://mtzy.me/api.php/provide/vod/",
+   "searchable": 0
+  },
+  {
+   "key": "dbzy",
+   "name": "豆瓣资源",
+   "type": "cms",
+   "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
+   "searchable": 0
   },
   {
    "key": "lzizy",
@@ -134,20 +148,6 @@
    "name": "天涯资源",
    "type": "cms",
    "api": "http://tyyszy.com/api.php/provide/vod/",
-   "searchable": 0
-  },
-  {
-   "key": "mtzy",
-   "name": "茅台资源",
-   "type": "cms",
-   "api": "https://mtzy.me/api.php/provide/vod/",
-   "searchable": 0
-  },
-  {
-   "key": "dbzy",
-   "name": "豆瓣资源",
-   "type": "cms",
-   "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
    "searchable": 0
   },
   {

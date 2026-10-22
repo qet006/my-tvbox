@@ -75,28 +75,10 @@
    "filterable": 1
   },
   {
-   "key": "jszyapi",
-   "name": "极速资源",
-   "type": 3,
-   "api": "https://jszyapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "360zy",
    "name": "360资源",
    "type": 3,
    "api": "https://360zy.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "bfzy",
-   "name": "暴风资源",
-   "type": 3,
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
@@ -120,6 +102,24 @@
    "filterable": 1
   },
   {
+   "key": "jszyapi",
+   "name": "极速资源",
+   "type": 3,
+   "api": "https://jszyapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "bfzy",
+   "name": "暴风资源",
+   "type": 3,
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "apibdzy",
    "name": "百度资源",
    "type": 3,
@@ -135,6 +135,24 @@
    "api": "https://api.ffzyapi.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "mtzy",
+   "name": "茅台资源",
+   "type": 3,
+   "api": "https://mtzy.me/api.php/provide/vod/",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 1
+  },
+  {
+   "key": "dbzy",
+   "name": "豆瓣资源",
+   "type": 3,
+   "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
+   "searchable": 0,
+   "quickSearch": 0,
    "filterable": 1
   },
   {
@@ -169,24 +187,6 @@
    "name": "天涯资源",
    "type": 3,
    "api": "http://tyyszy.com/api.php/provide/vod/",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "mtzy",
-   "name": "茅台资源",
-   "type": 3,
-   "api": "https://mtzy.me/api.php/provide/vod/",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 1
-  },
-  {
-   "key": "dbzy",
-   "name": "豆瓣资源",
-   "type": 3,
-   "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
    "searchable": 0,
    "quickSearch": 0,
    "filterable": 1
