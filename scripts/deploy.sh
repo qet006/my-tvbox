@@ -11,6 +11,8 @@ if ! gh auth status >/dev/null 2>&1; then
   echo "未登录 GitHub，请先运行： gh auth login --hostname github.com --git-protocol https --web"
   exit 1
 fi
+# 解释器探测：ubuntu 只有 python3，Windows 常见 python
+PY="$(command -v python3 || command -v python || echo python)"
 OWNER="$(gh api user -q .login)"
 echo "  账号: $OWNER"
 RAW="https://raw.githubusercontent.com/$OWNER/$REPO_NAME/main"
@@ -24,7 +26,7 @@ else
 fi
 
 echo "== 2/5 把 README 里的 {owner} 换成真实账号 =="
-python - "$OWNER" <<'PY'
+"$PY" - "$OWNER" <<'PY'
 import sys, pathlib
 owner = sys.argv[1]
 p = pathlib.Path("README.md")
@@ -35,7 +37,7 @@ print(f"  README 已替换为 {owner}")
 PY
 
 echo "== 3/5 用线上地址重建产物 =="
-PUBLIC_BASE="$RAW" python scripts/build_config.py
+PUBLIC_BASE="$RAW" "$PY" scripts/build_config.py
 
 echo "== 4/5 推送 =="
 git -c user.name="my-tvbox-bot" -c user.email="bot@local" add -A
