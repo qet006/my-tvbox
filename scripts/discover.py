@@ -258,12 +258,7 @@ def main():
         k = c["api"].split("?")[0].rstrip("/").lower()
         if k in exist:
             continue
-        base = re.sub(r"[^a-zA-Z0-9]", "", (c.get("name") or "src").split(":")[-1])[:10].lower()
-        host = urllib.parse.urlparse(c["api"]).hostname or ""
-        parts = host.split(".")
-        if len(parts) >= 2:
-            base = re.sub(r"[^a-z0-9]", "", parts[-2])[:12] or base
-        base = base or f"new{added}"
+        base = pc.key_from_api(c["api"], f"new{added}")
         key = base
         n = 1
         while any(s["key"] == key for s in allowed["sources"]):

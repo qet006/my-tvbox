@@ -131,7 +131,7 @@ def main():
             k = it["api"].split("?")[0].rstrip("/").lower()
             if k in exist:
                 continue
-            key = (it.get("name") or "src").split("|")[0].strip()[:12] or f"rev{len(sources)}"
+            key = pc.key_from_api(it["api"], f"rev{len(sources)}")
             base_key, n = key, 1
             while any(s["key"] == key for s in sources):
                 n += 1

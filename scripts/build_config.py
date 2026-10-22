@@ -70,12 +70,18 @@ def build_lives(live_cfg):
     ]
 
 
-def verify(sites, name):
+SPIDER_PREFIX = ("csp_", "py_", "./")
+
+
+def verify(sites, name, allow_spider=False):
     keys = [s["key"] for s in sites]
     assert len(keys) == len(set(keys)), f"{name}: key 重复 -> {[k for k in keys if keys.count(k) > 1][:5]}"
     for s in sites:
-        assert s["api"].startswith("http"), f"{name}: 非法 api {s['api']}"
-        assert "?" not in s["api"], f"{name}: api 含 query {s['api']}"
+        api = s["api"]
+        if allow_spider and api.startswith(SPIDER_PREFIX):
+            continue  # csp_/py_ 是客户端内置蜘蛛名，不是 URL
+        assert api.startswith("http"), f"{name}: 非法 api {api}"
+        assert "?" not in api, f"{name}: api 含 query {api}"
     return True
 
 
@@ -131,7 +137,7 @@ def main():
             continue
         pc_sites.append(make_site(s))
         used.add(key)
-    verify(pc_sites, "pc")
+    verify(pc_sites, "pc", allow_spider=True)
     pc_payload = dict(payload)
     pc_payload["sites"] = pc_sites
     if pc_extra.get("spider"):

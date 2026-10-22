@@ -53,6 +53,15 @@ def http_get_dual(url, timeout=8, ua=UA, stream_bytes=0):
     return False, st2 or st, b"", ms2, "none", err2 or err
 
 
+def key_from_api(api, fallback="src"):
+    """从 api 域名推出稳定、短、纯 ASCII 的 site key（两个脚本共用，避免各写一套）。"""
+    host = urllib.parse.urlparse(api or "").hostname or ""
+    parts = [p for p in host.split(".") if p]
+    if len(parts) >= 2:
+        return re.sub(r"[^a-z0-9]", "", parts[-2])[:12] or fallback
+    return re.sub(r"[^a-z0-9]", "", host)[:12] or fallback
+
+
 def _json(body):
     return json.loads(body.decode("utf-8", "ignore"))
 
