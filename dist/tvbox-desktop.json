@@ -4,10 +4,38 @@
  "note": "自动生成：全部源经过四级测活（列表/搜索/详情/m3u8 首行）",
  "sites": [
   {
+   "key": "ffzy",
+   "name": "★非凡资源",
+   "type": "cms",
+   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
    "key": "lziapi",
    "name": "★量子资源",
    "type": "cms",
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "dytt",
+   "name": "★电影天堂",
+   "type": "cms",
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "guangsu",
+   "name": "★光速资源",
+   "type": "cms",
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "subo",
+   "name": "★素博资源",
+   "type": "cms",
+   "api": "https://subocaiji.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
@@ -25,13 +53,6 @@
    "searchable": 1
   },
   {
-   "key": "guangsu",
-   "name": "★光速资源",
-   "type": "cms",
-   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "hhzy",
    "name": "火狐资源",
    "type": "cms",
@@ -46,20 +67,6 @@
    "searchable": 1
   },
   {
-   "key": "ffzy",
-   "name": "★非凡资源",
-   "type": "cms",
-   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "dytt",
-   "name": "★电影天堂",
-   "type": "cms",
-   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "360zy",
    "name": "360资源",
    "type": "cms",
@@ -71,13 +78,6 @@
    "name": "暴风资源",
    "type": "cms",
    "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "subo",
-   "name": "★素博资源",
-   "type": "cms",
-   "api": "https://subocaiji.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
@@ -170,7 +170,7 @@
    "sections": [
     {
      "title": "电影 · 最近更新",
-     "site": "lziapi"
+     "site": "ffzy"
     }
    ]
   }

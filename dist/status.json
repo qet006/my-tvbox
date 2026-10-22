@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T08:57:23Z",
+ "updated": "2026-10-22T08:59:25Z",
  "counts": {
   "active": 22,
   "searchable": 15,
@@ -9,12 +9,52 @@
  },
  "sources": [
   {
+   "key": "ffzy",
+   "name": "★非凡资源",
+   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 98722,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
    "key": "lziapi",
    "name": "★量子资源",
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
    "total": 160401,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "dytt",
+   "name": "★电影天堂",
+   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 84703,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "guangsu",
+   "name": "★光速资源",
+   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+   "score": 100.0,
+   "searchable": 1,
+   "total": 116103,
+   "last_ok": "2026-10-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "subo",
+   "name": "★素博资源",
+   "api": "https://subocaiji.com/api.php/provide/vod/",
+   "score": 95.0,
+   "searchable": 1,
+   "total": 116028,
    "last_ok": "2026-10-22",
    "fail_streak": 0
   },
@@ -39,16 +79,6 @@
    "fail_streak": 0
   },
   {
-   "key": "guangsu",
-   "name": "★光速资源",
-   "api": "https://api.guangsuapi.com/api.php/provide/vod/",
-   "score": 100.0,
-   "searchable": 1,
-   "total": 116103,
-   "last_ok": "2026-10-22",
-   "fail_streak": 0
-  },
-  {
    "key": "hhzy",
    "name": "火狐资源",
    "api": "https://hhzyapi.com/api.php/provide/vod/",
@@ -69,26 +99,6 @@
    "fail_streak": 0
   },
   {
-   "key": "ffzy",
-   "name": "★非凡资源",
-   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
-   "score": 100.0,
-   "searchable": 1,
-   "total": 98722,
-   "last_ok": "2026-10-22",
-   "fail_streak": 0
-  },
-  {
-   "key": "dytt",
-   "name": "★电影天堂",
-   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
-   "score": 100.0,
-   "searchable": 1,
-   "total": 84703,
-   "last_ok": "2026-10-22",
-   "fail_streak": 0
-  },
-  {
    "key": "360zy",
    "name": "360资源",
    "api": "https://360zy.com/api.php/provide/vod/",
@@ -105,16 +115,6 @@
    "score": 95.0,
    "searchable": 1,
    "total": 166007,
-   "last_ok": "2026-10-22",
-   "fail_streak": 0
-  },
-  {
-   "key": "subo",
-   "name": "★素博资源",
-   "api": "https://subocaiji.com/api.php/provide/vod/",
-   "score": 95.0,
-   "searchable": 1,
-   "total": 116028,
    "last_ok": "2026-10-22",
    "fail_streak": 0
   },

@@ -41,7 +41,9 @@
    "added": "2026-10-22",
    "last_ok": "2026-10-22",
    "fail_streak": 0,
-   "last_update_at": "2026-10-22 16:24:12"
+   "last_update_at": "2026-10-22 16:24:12",
+   "pinned": 2,
+   "source_note": "用户指定置顶"
   },
   {
    "key": "xinlang",
@@ -161,7 +163,9 @@
    "added": "2026-10-22",
    "last_ok": "2026-10-22",
    "fail_streak": 0,
-   "last_update_at": "2026-10-22 16:46:04"
+   "last_update_at": "2026-10-22 16:46:04",
+   "pinned": 4,
+   "source_note": "用户指定置顶"
   },
   {
    "key": "hhzy",
@@ -281,7 +285,9 @@
    "added": "2026-10-22",
    "last_ok": "2026-10-22",
    "fail_streak": 0,
-   "last_update_at": "2026-10-22 16:44:40"
+   "last_update_at": "2026-10-22 16:44:40",
+   "pinned": 1,
+   "source_note": "用户指定置顶"
   },
   {
    "key": "dytt",
@@ -321,7 +327,9 @@
    "added": "2026-10-22",
    "last_ok": "2026-10-22",
    "fail_streak": 0,
-   "last_update_at": "2026-10-22 16:24:40"
+   "last_update_at": "2026-10-22 16:24:40",
+   "pinned": 3,
+   "source_note": "用户指定置顶"
   },
   {
    "key": "360zy",
@@ -441,7 +449,9 @@
    "added": "2026-10-22",
    "last_ok": "2026-10-22",
    "fail_streak": 0,
-   "last_update_at": "2026-10-22 16:46:08"
+   "last_update_at": "2026-10-22 16:46:08",
+   "pinned": 5,
+   "source_note": "用户指定置顶"
   },
   {
    "key": "huyaapi",

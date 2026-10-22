@@ -145,7 +145,8 @@ def main():
         print(f"[health] 隔离区复活 {len(revive)} 个")
 
     # ---------- 4. 重排：能搜的优先，然后按分数 ----------
-    sources.sort(key=lambda s: (0 if s.get("status") == "active" else 1,
+    sources.sort(key=lambda s: (s.get("pinned") or 99,
+                                0 if s.get("status") == "active" else 1,
                                 -(s.get("searchable") or 0),
                                 -(s.get("score") or 0)))
     allowed["sources"] = sources

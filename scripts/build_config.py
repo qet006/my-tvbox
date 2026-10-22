@@ -102,7 +102,10 @@ def main():
     pc_extra = load("pc_extra.json", {"sources": []})
 
     sources = [s for s in allowed.get("sources", []) if s.get("status", "active") == "active"]
-    sources.sort(key=lambda s: (-(s.get("searchable") or 0), -(s.get("score") or 0)))
+    # 用户指定置顶的源绝对优先（pinned 是 1..n 的序号），其余按可搜索 + 得分
+    sources.sort(key=lambda s: (s.get("pinned") or 99,
+                                -(s.get("searchable") or 0),
+                                -(s.get("score") or 0)))
     if not sources:
         print("没有可用源，中止", file=sys.stderr)
         return 1
