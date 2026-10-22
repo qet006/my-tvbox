@@ -1,0 +1,42 @@
+{
+ "note": "直播候选源列表。每日 check_live.py 会拉取全部列表 → 按频道名合并去重 → 逐个深度验活（拉真实 TS/fMP4 分片）→ 只把真活的写进 dist/live.txt。",
+ "policy": {
+  "drop_groups": ["地方频道"],
+  "drop_name_keywords": ["测试", "备用", "占位", "未分类"],
+  "per_channel_keep": 2,
+  "workers": 16,
+  "timeout": 8
+ },
+ "sources": [
+  {
+   "name": "zbds-iptv4",
+   "url": "https://live.zbds.top/tv/iptv4.txt",
+   "priority": 1,
+   "enabled": true
+  },
+  {
+   "name": "Kimentanm-aptv",
+   "url": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+   "priority": 2,
+   "enabled": true
+  },
+  {
+   "name": "iptv-php-193",
+   "url": "http://193.123.86.190:14888/TV/iptv.php",
+   "priority": 3,
+   "enabled": true
+  },
+  {
+   "name": "Guovin-ipv4",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+   "priority": 4,
+   "enabled": true
+  },
+  {
+   "name": "iptv-org-cn",
+   "url": "https://gh-proxy.com/https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u",
+   "priority": 5,
+   "enabled": true
+  }
+ ]
+}

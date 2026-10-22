@@ -1,0 +1,42 @@
+name: 仅重建配置（不测活）
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sources/allowed.json'
+      - 'scripts/build_config.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: my-tvbox-rebuild
+  cancel-in-progress: true
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 重建产物
+        env:
+          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
+        run: python scripts/build_config.py
+
+      - name: 提交
+        run: |
+          git config user.name  "my-tvbox-bot"
+          git config user.email "my-tvbox-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore(rebuild): 手动重建产物"
+            git push
+          fi

@@ -160,7 +160,7 @@
  ],
  "lives": [
   {
-   "name": "直播·精选(仅存活)",
+   "name": "精选直播·仅真活",
    "type": 0,
    "url": "http://127.0.0.1:8899/live.txt"
   }
@@ -169,8 +169,29 @@
   "home": {
    "sections": [
     {
-     "title": "电影 · 最近更新",
-     "site": "ffzy"
+     "title": "动作片 · 非凡资源",
+     "site": "ffzy",
+     "typeId": 6
+    },
+    {
+     "title": "国产剧 · 量子资源",
+     "site": "lziapi",
+     "typeId": 13
+    },
+    {
+     "title": "电影 · 光速资源",
+     "site": "guangsu",
+     "typeId": 1
+    },
+    {
+     "title": "动作片 · 电影天堂",
+     "site": "dytt",
+     "typeId": 6
+    },
+    {
+     "title": "大陆综艺 · 素博资源",
+     "site": "subo",
+     "typeId": 33
     }
    ]
   }

@@ -1,9 +1,17 @@
-name: 健康检查与重建
+name: 每日测活与重建
 
 on:
   schedule:
-    - cron: '0 */6 * * *'      # 每 6 小时（UTC）
+    # 北京时间 06:10 与 18:10（UTC 22:10 / 10:10）。GitHub Actions 的 cron 是 UTC。
+    # 排在整点后 10 分，避开整点调度高峰（整点任务经常排队延迟 20-40 分钟）。
+    - cron: '10 22 * * *'
+    - cron: '10 10 * * *'
   workflow_dispatch:
+    inputs:
+      skip_live:
+        description: '跳过直播深度验活（只测点播）'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
@@ -15,24 +23,66 @@ concurrency:
 jobs:
   health:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 测活并降级失效源
+
+      - name: 环境信息
+        run: |
+          python -V
+          echo "仓库: ${{ github.repository }}"
+
+      - name: 点播源测活（四级：列表/搜索/详情/m3u8）
         run: python scripts/check_health.py
+
+      - name: 直播源深度验活（拉真实分片）
+        if: ${{ github.event.inputs.skip_live != 'true' }}
+        run: python scripts/check_live.py
+        continue-on-error: true      # 直播全挂时不要连带失败，保留旧 live.txt
+
       - name: 重建配置产物
+        env:
+          PUBLIC_BASE: https://raw.githubusercontent.com/${{ github.repository }}/main
         run: python scripts/build_config.py
+
+      - name: 校验产物完整性
+        run: |
+          python - <<'PY'
+          import json, os, sys
+          ok = True
+          for f in ("tvbox.json", "tvbox-pc.json", "tvbox-desktop.json", "status.json"):
+              p = os.path.join("dist", f)
+              if not os.path.exists(p):
+                  print(f"缺失 {f}"); ok = False; continue
+              try:
+                  d = json.load(open(p, encoding="utf-8"))
+              except Exception as e:
+                  print(f"{f} 解析失败 {e}"); ok = False; continue
+              print(f"{f:<24} {os.path.getsize(p):>7} 字节  sites={len(d.get('sites') or [])}  lives={len(d.get('lives') or [])}")
+          lt = os.path.join("dist", "live.txt")
+          if os.path.exists(lt):
+              lines = [l for l in open(lt, encoding="utf-8").read().splitlines()
+                       if l and not l.startswith("#")]
+              print(f"live.txt                 {os.path.getsize(lt):>7} 字节  {len(lines)} 条地址")
+              if len(lines) == 0:
+                  print("live.txt 为空"); ok = False
+          else:
+              print("缺失 live.txt"); ok = False
+          sys.exit(0 if ok else 1)
+          PY
+
       - name: 提交变更
         run: |
           git config user.name  "my-tvbox-bot"
           git config user.email "my-tvbox-bot@users.noreply.github.com"
           git add -A
           if git diff --cached --quiet; then
-            echo "无变更"
+            echo "本次无变更"
           else
-            git commit -m "chore(health): $(date -u +'%Y-%m-%d %H:%M') UTC 健康检查"
+            git commit -m "chore(auto): $(date -u +'%Y-%m-%d %H:%M') UTC 测活重建"
             git push
           fi

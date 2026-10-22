@@ -1,0 +1,12 @@
+{
+ "urls": [
+  {
+   "url": "http://127.0.0.1:8899/dist/tvbox.json",
+   "name": "通用版"
+  },
+  {
+   "url": "http://127.0.0.1:8899/dist/tvbox-pc.json",
+   "name": "TVBoxPC 增强版"
+  }
+ ]
+}

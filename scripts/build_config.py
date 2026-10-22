@@ -50,8 +50,9 @@ def make_site(s, extra=None):
         "quickSearch": int(s.get("searchable") or 0),
         "filterable": 1,
     }
-    if s.get("categories"):
-        item["categories"] = s["categories"][:40]
+    # 注意：不要写 categories。TVBox 会拿 categories 的值当 t 参数，
+    # 而苹果CMS 的 t 只认数字 type_id，写中文名会让该源所有分类页返回空。
+    # 不写 categories 时客户端用 ?ac=list 返回的 class（type_id 正确），分类才能出内容。
     if s.get("ext"):
         item["ext"] = s["ext"]
     if s.get("playerType"):
@@ -61,7 +62,16 @@ def make_site(s, extra=None):
     return item
 
 
-def build_lives(live_cfg):
+def build_lives(live_cfg, base=""):
+    """直播条目：优先指向 check_live.py 产出的真活 live.txt（全部经深度验活）。
+
+    live.txt 里已经按 #genre# 分好组、每个频道最多 2 条备线，
+    客户端拿到的都是能拉出真实分片的地址，不带假活。
+    """
+    if base and os.path.exists(os.path.join(DIST, "live.txt")):
+        # CI 上产物在 /dist/ 下；本地 http 服务常把 dist 当根目录，用 LIVE_REL 覆盖
+        rel = os.environ.get("LIVE_REL", "dist/live.txt").lstrip("/")
+        return [{"name": "精选直播·仅真活", "type": 0, "url": f"{base}/{rel}"}]
     lists = sorted((live_cfg or {}).get("lists", []), key=lambda x: x.get("priority", 99))
     return [
         {"name": L["name"], "type": int(L.get("type", 0)), "url": L["url"]}
@@ -101,6 +111,10 @@ def main():
     live_cfg = load("live.json", {"lists": []})
     pc_extra = load("pc_extra.json", {"sources": []})
 
+    # 发布基址：CI 用 PUBLIC_BASE 环境变量（GitHub raw），本地默认 127.0.0.1:8899
+    base = (os.environ.get("PUBLIC_BASE") or allowed.get("public_base") or
+            "http://127.0.0.1:8899").rstrip("/")
+
     sources = [s for s in allowed.get("sources", []) if s.get("status", "active") == "active"]
     # 用户指定置顶的源绝对优先（pinned 是 1..n 的序号），其余按可搜索 + 得分
     sources.sort(key=lambda s: (s.get("pinned") or 99,
@@ -110,7 +124,7 @@ def main():
         print("没有可用源，中止", file=sys.stderr)
         return 1
 
-    lives = build_lives(live_cfg)
+    lives = build_lives(live_cfg, base)
     parses = allowed.get("parses") or []
     flags = allowed.get("flags") or []
 
@@ -173,7 +187,6 @@ def main():
     p3, n3 = write("tvbox-desktop.json", desk_payload)
 
     # 4) 多仓索引
-    base = (allowed.get("public_base") or "").rstrip("/")
     if base:
         multi = {
             "urls": [
