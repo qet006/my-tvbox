@@ -250,6 +250,22 @@ def main():
                 if u not in slot and len(slot) < keep_n:
                     slot.append(u)
 
+    # 全局收敛：同一频道名可能被归到两个大类（如 CGTN纪录 同时出现在"央视频道"
+    # 和"纪录频道"两个源分组里），合并到先出现的那个；URL 全局唯一。
+    merged, seen_url = {}, set()
+    name_home = {}
+    for g in list(norm):
+        for n, us in list(norm[g].items()):
+            home = name_home.get(n, g)
+            slot = merged.setdefault(home, {}).setdefault(n, [])
+            for u in us:
+                if u in seen_url or len(slot) >= keep_n:
+                    continue
+                slot.append(u)
+                seen_url.add(u)
+            name_home[n] = home
+    norm = {g: d for g, d in merged.items() if d}
+
     ch_total = sum(len(v) for v in norm.values())
     print(f"  频道级：{ch_total} 个唯一频道（已排除地方台）")
 

@@ -1,75 +1,168 @@
 # my-tvbox
 
-自动测活的 TVBox 源池。**只收录真正能播的源**，每 6 小时复检一次，死一个降一个，每天自动发现新源。
+一套**实测驱动**的 TVBox 配置仓库：点播源四级测活、直播源深度验活（拉真实分片），
+GitHub Actions 每 12 小时自动重跑，死源自动降级、淘汰、复活，产物直接给客户端用。
 
-![源数量](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/USER/REPO/main/dist/badge.json)
-![更新](https://img.shields.io/github/last-commit/USER/REPO)
+> 核心原则：**不放没验过的源**。宁可只有 22 个能用的，也不放 200 个点开就报错的。
 
-## 直接使用（复制地址填进客户端）
+---
 
-| 用途 | 地址 |
+## 一、客户端配置地址
+
+部署后把下面任意一条填进客户端的「配置地址」（把 `{owner}` 换成你的 GitHub 用户名）：
+
+| 客户端 | 地址 |
 |---|---|
-| **通用版**（TVBox / 影视仓 / FongMi / TVBox for Windows） | `https://raw.githubusercontent.com/USER/REPO/main/dist/tvbox.json` |
-| **TVBoxPC 增强版**（能吃 jar 蜘蛛，源更多） | `https://raw.githubusercontent.com/USER/REPO/main/dist/tvbox-pc.json` |
-| Electron 版（TVBox Desktop） | `https://raw.githubusercontent.com/USER/REPO/main/dist/tvbox-desktop.json` |
-| 多仓索引（客户端内切换） | `https://raw.githubusercontent.com/USER/REPO/main/dist/multi.json` |
-| 状态（每个源的得分/存活） | `https://raw.githubusercontent.com/USER/REPO/main/dist/status.json` |
+| **TVBox Desktop**（推荐） | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/tvbox-desktop.json` |
+| TVBoxPC / TVBox 通用 | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/tvbox.json` |
+| TVBoxPC 增强（含 jar 蜘蛛） | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/tvbox-pc.json` |
+| zyfun / ZyPlayer | 用上面的 `tvbox.json`（其 `tbl_site` 的 `type=1` 即苹果CMS） |
+| 多仓订阅 | `https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/multi.json` |
 
-国内拉不到 raw 时，在前面加 `https://gh-proxy.com/`。
+GitHub 直连慢的话，在前面加反代前缀：`https://gh-proxy.com/` + 原地址。
 
-## 测活标准
+---
 
-每个源必须连续通过四关才算活：
+## 二、定时更新
 
-1. **列表**：接口返回 JSON，带 `list` 与 `class`
-2. **搜索**：`?ac=videolist&wd=关键词` 能返回结果
-3. **详情**：`?ac=videolist&ids=xxx` 能拿到 `vod_play_url`
-4. **播放**：从详情里抽 m3u8，流式读前 2KB 校验首行 `#EXTM3U`
+`.github/workflows/healthcheck.yml`：
 
-额外两条保护：
-
-- **双通道**：先走系统代理，失败强制直连重试，避免把"本机代理坏了"误判成"源死了"
-- **二次复核**：SSL EOF / 连接被断的，换 HTTP 与放宽 TLS 再测一遍，两次都失败才判死
-
-## 自动维护规则
-
-| 时机 | 动作 |
-|---|---|
-| 每 6 小时 | 测活全部 active 源 → 失败降级 → 重建产物 |
-| 每天 03:00 UTC | 扫 GitHub 新配置仓库 → 提取新接口 → 全测 → 连续两日存活才转正 |
-
-淘汰规则（不是一死就删）：
-
-```
-第 1~2 次失败  → 仍在配置里，score 打折排到最后
-连续 3 次失败  → 移入 retired，从产物剔除
-retired 满 30 天 → 自动拉回复检一次，活了就回来
+```yaml
+schedule:
+  - cron: '10 22 * * *'   # 北京时间 06:10
+  - cron: '10 10 * * *'   # 北京时间 18:10
 ```
 
-## 仓库结构
+每次运行：
+
+1. **点播测活** `check_health.py`
+   - 连续失败 1~2 次 → `score` 打折排后（降级）
+   - 连续失败 ≥3 次 → `status=retired` 移出配置
+   - retired 满 30 天 → 自动复检，活了回来
+2. **直播深度验活** `check_live.py`：拉候选列表 → 解析频道 → **拉真实 TS/fMP4 分片** → 只留能播的
+3. **重建产物** `build_config.py`：4 份配置 + `live.txt` + `status.json` + 徽章
+4. **产物校验**：每份 JSON 能否解析、`sites` 是否为空、`live.txt` 是否有地址，任一不过标红
+
+---
+
+## 三、验活标准
+
+### 点播：四级
+
+| 级别 | 检查 | 淘汰条件 |
+|---|---|---|
+| L1 | `GET api` 有无 JSON、`list` 有无数据 | 无数据 / 非 JSON |
+| L2 | `?ac=videolist&wd=庆余年` | 搜索无结果（标为不可搜，仍保留浏览） |
+| L3 | `?ac=videolist&ids=<id>` 的 `vod_play_url` | 无播放地址 |
+| L4 | 第一条 m3u8 前 2KB 含 `#EXTM3U` | 不可播 |
+
+### 直播：深度验活（最关键）
 
 ```
-sources/
-  allowed.json     活源池（key/api/categories/score/status）
-  candidates.json  待复检与隔离的接口
-  live.json        直播源清单（含实测存活率）
-  seed_api.txt     人工补充的候补接口（一行一个）
-scripts/
-  probe_core.py    四级测活引擎
-  check_health.py  每日/每 6 小时测活与降级
-  discover.py      自动发现新源（连续两日存活才转正）
-  build_config.py  生成 dist/ 四份产物
-dist/              自动生成的配置（不要手改）
+m3u8 首行有 #EXTM3U 就算活？  ❌ 会得到大量假阳性
+真实标准：m3u8 → (master)子列表 → 拉第一个分片 → 校验 0x47(TS) 或 ftyp/styp/moof(fMP4)
 ```
 
-## 手工跑一遍
+**实测（2672 条候选）**：
+
+| 判据 | 通过 |
+|---|---:|
+| 只看 m3u8 首行 | 大量（假活） |
+| **拉到真实分片** | **403 条（15%）** |
+
+典型骗局：`http://xxx:8181/720p/cctv1.m3u8` 返回 `#EXTM3U`，但分片只有 170~198 字节，
+内容是 `#EXTM3U
+...` 文本，永远播不出来。只看首行必然误判。
+
+另一层坑：很多源的分组名带 emoji 或后缀（`📺央视频道`、`央视IPV4`、`CCTV-1 (1080p)`），
+直接按组名归类会把同一个台拆成好几个，`check_live.py` 里有 `normalize_group` /
+`norm_channel_name` 做归一化。
+
+---
+
+## 四、当前实测结果
+
+### 点播：22 个源
+
+| 类型 | 数量 |
+|---|---:|
+| 可搜索 + 可播 | 15 |
+| 仅可浏览 | 5 |
+| 搜索异常（保留备用） | 2 |
+| **置顶（用户指定）** | **5**：非凡 / 量子 / 电影天堂 / 光速 / 素博 |
+
+分类页「总类空」的原因：苹果CMS 的 `class` 里「电影片」这类总类只做导航、不挂片，
+片子全在子类（动作片/喜剧片）。**配置层改不了**；写中文 `categories` 反而会让
+`t` 参数失效、整源分类全空 —— 所以本仓库**不写 `categories`**。
+
+### 直播：只保留真活（71 个频道 / 86 条地址）
+
+| 分组 | 频道数 | 明细 |
+|---|---:|---|
+| 央视频道 | 14 | CCTV1/3/5/8/9/10/12/13/15/16 + CGTN/CGTN法语/CGTN纪录/CGTN财经 |
+| 卫视频道 | 18 | 湖南/浙江/东方/安徽/深圳/江西/辽宁/黑龙江/东南/山西/河北/内蒙古/西藏/延边/安多/人间/苏州4K/山东教育 |
+| 电影频道 | 12 | |
+| 纪录频道 | 11 | |
+| 春晚频道 | 6 | |
+| 少儿频道 | 3 | |
+| 音乐频道 | 3 | |
+| 数字频道 | 2 | |
+| 4K8K / 经典剧场 | 2 | |
+
+**地方频道全部剔除**：`live_sources.json` 的 `policy.drop_groups`，
+另有 `PROV` 省名列表兜底（`☘️安徽频道`、`🌊港·澳·台` 这类按组名识别）。
+要地方台时把 `"地方频道"` 从数组删掉即可。
+
+缺口（免费源层面确实拿不到，每个都试了 9~27 个候选）：
+央视 CCTV2/4/6/7/11/14/17，卫视 北京/江苏/广东/天津/重庆/四川/湖北/河南 等。
+
+---
+
+## 五、目录结构
+
+```
+my-tvbox/
+├─ sources/
+│  ├─ allowed.json        # 活源池（22 个，含 pinned/status/score/fail_streak）
+│  ├─ candidates.json     # 隔离区（复检用）
+│  ├─ live_sources.json   # 直播候选源 + 丢弃策略
+│  ├─ live_verified.json  # 上次验活结果（频道 → 地址）
+│  └─ seed_api.txt        # 手工候选接口
+├─ scripts/
+│  ├─ probe_core.py       # 测活引擎：四级点播 + deep_hls 直播 + 两段式预筛
+│  ├─ check_health.py     # 点播降级/淘汰/复活
+│  ├─ check_live.py       # 直播深度验活 → live.txt
+│  ├─ build_config.py     # 生成 4 份配置 + status + badge
+│  └─ discover.py         # GitHub 发现新源（四道闸）
+├─ dist/                  # 产物（客户端直接读这里）
+└─ .github/workflows/
+   ├─ healthcheck.yml     # 每日 2 次：测活 → 重建 → 校验 → 提交
+   ├─ rebuild.yml         # 改 allowed.json 自动重建
+   └─ discover.yml        # 每周发现新源
+```
+
+---
+
+## 六、本地跑
 
 ```bash
-python scripts/check_health.py   # 测活 + 降级
-python scripts/discover.py       # 找新源
-python scripts/build_config.py   # 生成产物
+python scripts/check_health.py                                  # 点播测活（~1 分钟）
+python scripts/check_live.py                                    # 直播深度验活（~3 分钟）
+python scripts/check_live.py --from-cache                       # 用上次结果只重生成 live.txt
+PUBLIC_BASE=http://127.0.0.1:8899 LIVE_REL=live.txt python scripts/build_config.py
+python -m http.server 8899 --bind 127.0.0.1 --directory dist
 ```
 
-## 说明
+纯标准库，无第三方依赖，Python 3.9+。
 
-本项目只做"接口可用性验证与整理"，不托管、不分发任何影视内容。各接口的版权与可用性由提供方决定，请自行判断使用场景的合法性。
+---
+
+## 七、免责
+
+- 仓库只做**接口连通性与产物格式**的技术整理，不存储、不转码、不分发任何视频内容。
+- 所有源来自公开网络，版权归各自权利方所有。
+- 源随时可能失效，定时任务只是让它**失效得慢一点、死掉的不占位**。
+
+---
+
+![活源](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/{owner}/my-tvbox/main/dist/badge.json)
