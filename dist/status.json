@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T11:45:23Z",
+ "updated": "2026-10-23T00:45:43Z",
  "counts": {
   "active": 22,
   "searchable": 15,
@@ -12,11 +12,11 @@
    "key": "ffzy",
    "name": "★非凡资源",
    "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
-   "score": 75.0,
+   "score": 50.0,
    "searchable": 1,
    "total": 98722,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "lziapi",
@@ -24,19 +24,19 @@
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 160401,
-   "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "total": 160561,
+   "last_ok": "2026-10-23",
+   "fail_streak": 0
   },
   {
    "key": "dytt",
    "name": "★电影天堂",
    "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
-   "score": 75.0,
+   "score": 50.0,
    "searchable": 1,
    "total": 84703,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "guangsu",
@@ -44,8 +44,8 @@
    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 116111,
-   "last_ok": "2026-10-22",
+   "total": 116116,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -54,8 +54,8 @@
    "api": "https://subocaiji.com/api.php/provide/vod/",
    "score": 95.0,
    "searchable": 1,
-   "total": 116036,
-   "last_ok": "2026-10-22",
+   "total": 116041,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -64,8 +64,8 @@
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 116142,
-   "last_ok": "2026-10-22",
+   "total": 116147,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -74,8 +74,8 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 116122,
-   "last_ok": "2026-10-22",
+   "total": 116127,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -84,8 +84,8 @@
    "api": "https://hhzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 115204,
-   "last_ok": "2026-10-22",
+   "total": 115209,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -94,8 +94,8 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 73515,
-   "last_ok": "2026-10-22",
+   "total": 73519,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -104,8 +104,8 @@
    "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
    "score": 95.0,
    "searchable": 1,
-   "total": 115057,
-   "last_ok": "2026-10-22",
+   "total": 115062,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -115,38 +115,38 @@
    "score": 95.0,
    "searchable": 1,
    "total": 14889,
-   "last_ok": "2026-10-22",
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
    "key": "jszyapi",
    "name": "极速资源",
    "api": "https://jszyapi.com/api.php/provide/vod/",
-   "score": 75.0,
+   "score": 50.0,
    "searchable": 1,
    "total": 114438,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "bfzy",
    "name": "暴风资源",
    "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "score": 70.0,
+   "score": 45.0,
    "searchable": 1,
    "total": 166007,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "apibdzy",
    "name": "百度资源",
    "api": "https://api.apibdzy.com/api.php/provide/vod/",
-   "score": 65.0,
+   "score": 40.0,
    "searchable": 1,
    "total": 49396,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "ffzyapi",
@@ -156,7 +156,7 @@
    "searchable": 1,
    "total": 98722,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "mtzy",
@@ -164,8 +164,8 @@
    "api": "https://mtzy.me/api.php/provide/vod/",
    "score": 80.0,
    "searchable": 0,
-   "total": 150989,
-   "last_ok": "2026-10-22",
+   "total": 151009,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
@@ -174,59 +174,59 @@
    "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
    "score": 80.0,
    "searchable": 0,
-   "total": 148249,
-   "last_ok": "2026-10-22",
+   "total": 148253,
+   "last_ok": "2026-10-23",
    "fail_streak": 0
   },
   {
    "key": "lzizy",
    "name": "量子备用",
    "api": "https://lzizy1.com/api.php/provide/vod/",
-   "score": 60.0,
+   "score": 35.0,
    "searchable": 0,
    "total": 160401,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "suonia",
    "name": "索尼资源",
    "api": "https://suoniapi.com/api.php/provide/vod/",
-   "score": 60.0,
+   "score": 35.0,
    "searchable": 0,
    "total": 147178,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "sdzy",
    "name": "闪电资源",
    "api": "http://sdzyapi.com/api.php/provide/vod/",
-   "score": 60.0,
+   "score": 35.0,
    "searchable": 0,
    "total": 124475,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "tyyszy",
    "name": "天涯资源",
    "api": "http://tyyszy.com/api.php/provide/vod/",
-   "score": 60.0,
+   "score": 35.0,
    "searchable": 0,
    "total": 72932,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "wujinapi",
    "name": "无尽资源",
    "api": "https://api.wujinapi.net/api.php/provide/vod/",
-   "score": 55.0,
+   "score": 30.0,
    "searchable": 0,
    "total": 123130,
    "last_ok": "2026-10-22",
-   "fail_streak": 1
+   "fail_streak": 2
   }
  ]
 }
