@@ -4,24 +4,10 @@
  "note": "自动生成：全部源经过四级测活（列表/搜索/详情/m3u8 首行）",
  "sites": [
   {
-   "key": "ffzy",
-   "name": "★非凡资源",
-   "type": "cms",
-   "api": "https://cj.ffzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "lziapi",
    "name": "★量子资源",
    "type": "cms",
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "dytt",
-   "name": "★电影天堂",
-   "type": "cms",
-   "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/",
    "searchable": 1
   },
   {
@@ -81,34 +67,6 @@
    "searchable": 1
   },
   {
-   "key": "jszyapi",
-   "name": "极速资源",
-   "type": "cms",
-   "api": "https://jszyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "bfzy",
-   "name": "暴风资源",
-   "type": "cms",
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "apibdzy",
-   "name": "百度资源",
-   "type": "cms",
-   "api": "https://api.apibdzy.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "ffzyapi",
-   "name": "非凡备用",
-   "type": "cms",
-   "api": "https://api.ffzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "mtzy",
    "name": "茅台资源",
    "type": "cms",
@@ -121,48 +79,13 @@
    "type": "cms",
    "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
    "searchable": 0
-  },
-  {
-   "key": "lzizy",
-   "name": "量子备用",
-   "type": "cms",
-   "api": "https://lzizy1.com/api.php/provide/vod/",
-   "searchable": 0
-  },
-  {
-   "key": "suonia",
-   "name": "索尼资源",
-   "type": "cms",
-   "api": "https://suoniapi.com/api.php/provide/vod/",
-   "searchable": 0
-  },
-  {
-   "key": "sdzy",
-   "name": "闪电资源",
-   "type": "cms",
-   "api": "http://sdzyapi.com/api.php/provide/vod/",
-   "searchable": 0
-  },
-  {
-   "key": "tyyszy",
-   "name": "天涯资源",
-   "type": "cms",
-   "api": "http://tyyszy.com/api.php/provide/vod/",
-   "searchable": 0
-  },
-  {
-   "key": "wujinapi",
-   "name": "无尽资源",
-   "type": "cms",
-   "api": "https://api.wujinapi.net/api.php/provide/vod/",
-   "searchable": 0
   }
  ],
  "lives": [
   {
    "name": "精选直播·仅真活",
    "type": 0,
-   "url": "http://127.0.0.1:8899/dist/live.txt"
+   "url": "https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/live.txt"
   }
  ],
  "tvboxDesktop": {
