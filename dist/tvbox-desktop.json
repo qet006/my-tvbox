@@ -4,13 +4,6 @@
  "note": "自动生成：全部源经过四级测活（列表/搜索/详情/m3u8 首行）",
  "sites": [
   {
-   "key": "lziapi",
-   "name": "★量子资源",
-   "type": "cms",
-   "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "guangsu",
    "name": "★光速资源",
    "type": "cms",
@@ -85,7 +78,7 @@
   {
    "name": "精选直播·仅真活",
    "type": 0,
-   "url": "http://127.0.0.1:8899/dist/live.txt"
+   "url": "https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/live.txt"
   }
  ],
  "tvboxDesktop": {

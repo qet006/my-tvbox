@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T00:45:25Z",
+ "generated": "2026-10-24T14:05:42Z",
  "policy": {
   "drop_groups": [
    "地方频道"
@@ -15,13 +15,12 @@
   "timeout": 8
  },
  "stat": {
-  "candidates": 2401,
-  "prefilter_pass": 817,
-  "alive": 302,
-  "dead": 2099,
+  "candidates": 2493,
+  "prefilter_pass": 812,
+  "alive": 311,
+  "dead": 2182,
   "kinds": {
-   "TS": 301,
-   "raw-TS": 1
+   "TS": 311
   }
  },
  "list_sources": [
@@ -30,8 +29,8 @@
    "url": "https://live.zbds.top/tv/iptv4.txt",
    "ok": true,
    "status": 200,
-   "channels": 561,
-   "ms": 1.13
+   "channels": 695,
+   "ms": 0.44
   },
   {
    "name": "Kimentanm-aptv",
@@ -47,7 +46,7 @@
    "ok": true,
    "status": 200,
    "channels": 188,
-   "ms": 0.58
+   "ms": 0.67
   },
   {
    "name": "Guovin-ipv4",
@@ -55,7 +54,7 @@
    "ok": true,
    "status": 200,
    "channels": 1616,
-   "ms": 0.23
+   "ms": 0.15
   },
   {
    "name": "iptv-org-cn",
@@ -63,7 +62,7 @@
    "ok": true,
    "status": 200,
    "channels": 510,
-   "ms": 0.22
+   "ms": 0.11
   }
  ],
  "channels": {
@@ -77,6 +76,12 @@
    "CCTV13": [
     "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8"
    ],
+   "CCTV15": [
+    "http://gmxw.7766.org:808/hls/102/index.m3u8"
+   ],
+   "CCTV16": [
+    "http://gmxw.7766.org:808/hls/169/index.m3u8"
+   ],
    "CGTN": [
     "http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8"
    ],
@@ -85,29 +90,35 @@
    ]
   },
   "卫视频道": {
+   "安徽卫视": [
+    "http://gmxw.7766.org:808/hls/40/index.m3u8"
+   ],
    "东南卫视": [
     "http://live.zohi.tv/video/s10001-fztv-3/index.m3u8"
    ],
+   "甘肃卫视": [
+    "http://218.13.170.98:9901/tsfile/live/0141_1.m3u8"
+   ],
    "湖南卫视": [
-    "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
-    "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8"
+    "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
+    "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8"
    ],
-   "江西卫视": [
-    "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
-   ],
-   "西藏卫视": [
-    "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0"
+   "辽宁卫视": [
+    "http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0"
    ],
    "延边卫视": [
-    "https://srs.iyb983.cn/video/CYS/index.m3u8",
-    "https://srs.iyb983.cn:443/video/CYS/index.m3u8"
+    "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
+    "https://srs.iyb983.cn/video/CYS/index.m3u8"
    ],
    "浙江卫视": [
-    "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
-    "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
+    "http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8",
+    "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8"
    ],
    "安多卫视": [
     "https://liveout.xntv.tv/a65jur/96iln2.m3u8"
+   ],
+   "黑龙江卫视": [
+    "http://61.136.172.236:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0"
    ],
    "内蒙古卫视": [
     "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8"
@@ -143,8 +154,14 @@
     "http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild"
    ],
    "浙江教科影视": [
-    "https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8",
+    "http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8",
     "http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8"
+   ],
+   "韩国电影1": [
+    "https://stream.ads.ottera.tv/playlist.m3u8?network_id=595"
+   ],
+   "韩国电影2": [
+    "https://stream.ads.ottera.tv/playlist.m3u8?network_id=743"
    ],
    "龙门飞甲": [
     "http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8"
@@ -160,8 +177,8 @@
   },
   "儿童频道": {
    "浙江少儿": [
-    "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8",
-    "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8?"
+    "http://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8",
+    "https://ali-m-l.cztv.com/channels/lantian/channel008/1080p.m3u8"
    ],
    "福州少儿": [
     "http://live.zohi.tv/video/s10001-fztv-4/index.m3u8"
@@ -187,14 +204,8 @@
    "人与自然": [
     "http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8"
    ],
-   "兵团五师双河影": [
-    "https://liveout.btzx.com.cn/62ds9e/6o77s4.m3u8?zxinjd"
-   ],
    "地理中国": [
     "http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/c6baf6f74bb944aeacee1065ea72c798/1200.m3u8"
-   ],
-   "奎屯汉语": [
-    "http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd"
    ],
    "江津新闻": [
     "http://222.179.155.21:1935/ch1.m3u8?zzhongqd"
@@ -240,6 +251,9 @@
    ]
   },
   "📺央视频道": {
+   "CCTV-1": [
+    "http://74.91.26.218:82/live/cctv1hd.m3u8"
+   ],
    "CCTV-3": [
     "http://74.91.26.218:82/live/cctv3hd.m3u8"
    ],
@@ -262,9 +276,6 @@
   "📡卫视频道": {
    "广东卫视": [
     "http://120.76.248.139/live/bfgd/4200000092.m3u8"
-   ],
-   "浙江卫视": [
-    "http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8"
    ],
    "北京卫视": [
     "http://120.76.248.139/live/bfgd/4200000083.m3u8"
@@ -291,8 +302,8 @@
     "http://120.76.248.139/live/bfgd/4200000108.m3u8",
     "https://event.pull.hebtv.com/live/live101.m3u8"
    ],
-   "河南卫视": [
-    "http://111.59.139.82:11888/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0"
+   "江西卫视": [
+    "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0"
    ],
    "青海卫视": [
     "http://120.76.248.139/live/bfgd/4200000111.m3u8"
@@ -302,6 +313,13 @@
    ],
    "深圳卫视": [
     "http://120.76.248.139/live/bfgd/4200000100.m3u8"
+   ],
+   "西藏卫视": [
+    "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "http://120.76.248.139/live/bfgd/4200000121.m3u8"
+   ],
+   "云南卫视": [
+    "http://120.76.248.139/live/bfgd/4200000482.m3u8"
    ]
   },
   "☘️广东频道": {
@@ -488,6 +506,9 @@
   "☘️北京频道": {
    "北京新闻": [
     "https://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8"
+   ],
+   "北京科教": [
+    "http://120.76.248.139/live/bfgd/4200000113.m3u8"
    ]
   },
   "☘️上海频道": {
@@ -530,6 +551,23 @@
     "http://zjtv-wshls.homecdn.com/live/2aa16.m3u8"
    ]
   },
+  "☘️辽宁频道": {
+   "朝阳新闻综合": [
+    "http://120.76.248.139/live/bfgd/4200000282.m3u8"
+   ],
+   "辽宁影视剧": [
+    "http://120.76.248.139/live/bfgd/4200000070.m3u8"
+   ],
+   "辽宁教育青少": [
+    "http://120.76.248.139/live/bfgd/4200000075.m3u8"
+   ],
+   "辽宁生活": [
+    "http://120.76.248.139/live/bfgd/4200000073.m3u8"
+   ],
+   "辽宁经济": [
+    "http://120.76.248.139/live/bfgd/4200000480.m3u8"
+   ]
+  },
   "☘️湖北频道": {
    "荆门新闻综合": [
     "http://stream.jmtv.com.cn/xwzh/sd/live.m3u8"
@@ -547,18 +585,12 @@
    "井研综合": [
     "http://tvfile.jyrmt.cn/nmip-media/channellive/channel104452/playlist.m3u8"
    ],
-   "剑阁综合": [
-    "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel105549/playlist.m3u8"
-   ],
    "名山综合": [
     "https://m3u8channel-bx.yunxya.com/nmip-media/channellive/channel104666/playlist.m3u8"
    ],
-   "广元公共": [
-    "https://m3u8.channel.dzsm.com/nmip-media/channellive/channel101257/playlist.m3u8"
-   ],
    "广安公共": [
     "http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd",
-    "http://live1.gatv.com.cn:85/live/GGPD.m3u8"
+    "http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8"
    ],
    "旺苍新闻综合": [
     "http://live.spccmc.com:90/live/spxwzh.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
@@ -654,19 +686,19 @@
    "甘肃都市": [
     "https://satellitepull.cnr.cn/live/wxgsdstb/playlist.m3u8"
    ],
-   "永昌综合": [
-    "https://play.kankanlive.com/live/1652755738635915.m3u8"
+   "天祝综合": [
+    "https://play.kankanlive.com/live/1656487214793905.m3u8"
    ],
-   "白银综合": [
-    "http://play.kankanlive.com/live/1720408089419110.m3u8"
-   ],
-   "西峰综合": [
-    "https://play.kankanlive.com/live/1683944827526991.m3u8"
+   "渭源新闻": [
+    "http://play.kankanlive.com/live/1720408280309109.m3u8"
    ]
   },
   "☘️山西频道": {
    "太谷新闻综合": [
     "https://p2.vzan.com/slowlive/596867413819827251/live.m3u8?zbid=1725814272&tpid=1516989100&type=0"
+   ],
+   "定襄综合": [
+    "http://lbyzztfe.live.sxmty.com/live/hls/645ff4c60e0a49f0a203abbd73dd8be9/0720e665f10f48e98c9639f4f492fb4a-1.m3u8?zshanxd"
    ],
    "汾西综合": [
     "https://qmmqvzoz.live.sxmty.com/live/hls/f24f8a390c084386a564074c9260100c/be3fdf07606145739ab2c4b80fe0136a.m3u8?zshanxd"
@@ -674,22 +706,14 @@
   },
   "☘️安徽频道": {
    "固镇新闻": [
-    "http://www.guzhenm.com:7001/hls/hd-live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]"
+    "http://www.guzhenm.com:7001/hls/hd-live.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]",
+    "http://www.guzhenm.com:7001/hls/hd-live.m3u8"
    ],
    "祁门综合": [
     "http://zbbf2.ahbztv.com/live/416.m3u8?zanhd"
    ],
    "广德生活": [
     "https://live.gdtv.ah.cn/live/newsTV.m3u8"
-   ],
-   "宿州科教": [
-    "http://live.ahsz.tv/video/s10001-kxjy/index.m3u8"
-   ],
-   "宿州新闻综合": [
-    "http://live.ahsz.tv/video/s10001-szzh/index.m3u8"
-   ],
-   "宿州公共": [
-    "http://live.ahsz.tv/video/s10001-ggpd/index.m3u8"
    ],
    "亳州农村": [
     "http://zbbf2.ahbztv.com/live/418.m3u8",
@@ -699,9 +723,6 @@
   "☘️吉林频道": {
    "吉林乡村": [
     "https://satellitepull.cnr.cn/live/wxjlxcgb/playlist.m3u8"
-   ],
-   "长白朝语": [
-    "http://hplayer1.juyun.tv:80/camera/11344136.m3u8"
    ]
   },
   "☘️云南频道": {
@@ -743,11 +764,6 @@
     "http://38.64.72.148:80/hls/modn/list/2013/chunklist1.m3u8"
    ]
   },
-  "🎬电影频道": {
-   "天映经典": [
-    "http://mag.trexlive.me:80/play/live.php?extension=ts&mac=00:1A:79:7E:2F:ED&stream=1919463"
-   ]
-  },
   "🏛经典剧场": {
    "水浒传": [
     "http://live.ottiptv.cc/huya/26355860"
@@ -776,6 +792,9 @@
    ],
    "Chifeng Comprehensive News Chanel": [
     "http://play1-qk.nmtv.cn/live/1735546697341033.m3u8"
+   ],
+   "CND Film Middle School Channel": [
+    "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8"
    ],
    "Hebei TV": [
     "https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8"
@@ -835,9 +854,6 @@
    ],
    "浙江钱江": [
     "https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8"
-   ],
-   "荣昌综合 (404p) [Not 24/7]": [
-    "http://183.64.181.25:40023/rongchang01.m3u8"
    ],
    "萧山新闻综合 (720p) [Not 24/7]": [
     "https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8"

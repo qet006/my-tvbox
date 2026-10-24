@@ -1,30 +1,20 @@
 {
- "updated": "2026-10-24T07:54:52Z",
+ "updated": "2026-10-24T14:05:42Z",
  "counts": {
-  "active": 11,
-  "searchable": 9,
-  "sites_standard": 11,
-  "sites_pc": 11,
+  "active": 10,
+  "searchable": 8,
+  "sites_standard": 10,
+  "sites_pc": 10,
   "lives": 1
  },
  "sources": [
-  {
-   "key": "lziapi",
-   "name": "★量子资源",
-   "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "score": 25.0,
-   "searchable": 1,
-   "total": 160561,
-   "last_ok": "2026-10-23",
-   "fail_streak": 2
-  },
   {
    "key": "guangsu",
    "name": "★光速资源",
    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 116205,
+   "total": 116282,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -34,7 +24,7 @@
    "api": "https://subocaiji.com/api.php/provide/vod/",
    "score": 95.0,
    "searchable": 1,
-   "total": 116130,
+   "total": 116202,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -44,7 +34,7 @@
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 116236,
+   "total": 116308,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -54,7 +44,7 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 116216,
+   "total": 116325,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -64,7 +54,7 @@
    "api": "https://hhzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 115298,
+   "total": 115369,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -74,7 +64,7 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 73588,
+   "total": 73657,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -84,7 +74,7 @@
    "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
    "score": 95.0,
    "searchable": 1,
-   "total": 115153,
+   "total": 115261,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -94,7 +84,7 @@
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "score": 95.0,
    "searchable": 1,
-   "total": 14889,
+   "total": 14891,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -104,7 +94,7 @@
    "api": "https://mtzy.me/api.php/provide/vod/",
    "score": 80.0,
    "searchable": 0,
-   "total": 151085,
+   "total": 151165,
    "last_ok": "2026-10-24",
    "fail_streak": 0
   },
@@ -112,11 +102,11 @@
    "key": "dbzy",
    "name": "豆瓣资源",
    "api": "https://caiji.dbzy5.com/api.php/provide/vod/",
-   "score": 80.0,
+   "score": 55.0,
    "searchable": 0,
    "total": 148300,
    "last_ok": "2026-10-24",
-   "fail_streak": 0
+   "fail_streak": 1
   }
  ]
 }
