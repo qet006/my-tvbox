@@ -75,6 +75,42 @@
    "filterable": 1
   },
   {
+   "key": "apiyhzy",
+   "name": "apiyhzy",
+   "type": 3,
+   "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "ikunzyapi",
+   "name": "ikunzyapi",
+   "type": 3,
+   "api": "https://ikunzyapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "rycjapi",
+   "name": "rycjapi",
+   "type": 3,
+   "api": "https://cj.rycjapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
+   "key": "hongniuzy2",
+   "name": "hongniuzy2",
+   "type": 3,
+   "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "mtzy",
    "name": "茅台资源",
    "type": 3,
