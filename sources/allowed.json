@@ -145,13 +145,13 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 73726,
+   "total": 73751,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-10-26",
    "fail_streak": 0,
-   "last_update_at": "2026-10-26 00:01:55",
+   "last_update_at": "2026-10-26 08:39:17",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
