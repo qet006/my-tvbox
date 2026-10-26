@@ -1,11 +1,11 @@
 {
  "urls": [
   {
-   "url": "https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/tvbox.json",
+   "url": "https://raw.githubusercontent.com/qet006/my-tvbox/main/dist/tvbox.json",
    "name": "通用版"
   },
   {
-   "url": "https://raw.githubusercontent.com/xiaopeng-97/my-tvbox/main/dist/tvbox-pc.json",
+   "url": "https://raw.githubusercontent.com/qet006/my-tvbox/main/dist/tvbox-pc.json",
    "name": "TVBoxPC 增强版"
   }
  ]
