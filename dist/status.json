@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T15:49:40Z",
+ "updated": "2026-11-01T01:08:41Z",
  "counts": {
   "active": 13,
   "searchable": 12,
@@ -15,7 +15,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 116965,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -25,7 +25,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 116892,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -35,7 +35,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 116997,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -45,7 +45,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 116951,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -55,7 +55,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 116058,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -64,8 +64,8 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 74131,
-   "last_ok": "2026-10-31",
+   "total": 74132,
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -75,7 +75,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 115888,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -85,7 +85,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 14981,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -95,7 +95,7 @@
    "score": null,
    "searchable": 1,
    "total": 104862,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -104,8 +104,8 @@
    "api": "https://ikunzyapi.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 67536,
-   "last_ok": "2026-10-31",
+   "total": 67540,
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -114,9 +114,9 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 88881,
-   "last_ok": "2026-10-31",
-   "fail_streak": 1
+   "total": 88962,
+   "last_ok": "2026-11-01",
+   "fail_streak": 0
   },
   {
    "key": "hongniuzy2",
@@ -125,7 +125,7 @@
    "score": null,
    "searchable": 1,
    "total": 116373,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   },
   {
@@ -135,7 +135,7 @@
    "score": 55.0,
    "searchable": 0,
    "total": 151720,
-   "last_ok": "2026-10-31",
+   "last_ok": "2026-11-01",
    "fail_streak": 0
   }
  ]
