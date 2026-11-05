@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:04:07Z",
+ "updated": "2026-11-05T02:25:46Z",
  "counts": {
   "active": 13,
   "searchable": 12,
@@ -15,7 +15,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 117455,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -25,7 +25,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 117382,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -35,7 +35,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 117487,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -45,7 +45,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 117441,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -55,7 +55,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 116548,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -65,7 +65,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 74395,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -75,7 +75,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 116378,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -85,7 +85,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 14989,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -95,7 +95,7 @@
    "score": 0,
    "searchable": 1,
    "total": 105022,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -105,7 +105,7 @@
    "score": null,
    "searchable": 1,
    "total": 67577,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -114,8 +114,8 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 89246,
-   "last_ok": "2026-11-04",
+   "total": 89249,
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -125,7 +125,7 @@
    "score": null,
    "searchable": 1,
    "total": 116863,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   },
   {
@@ -135,7 +135,7 @@
    "score": 55.0,
    "searchable": 0,
    "total": 151987,
-   "last_ok": "2026-11-04",
+   "last_ok": "2026-11-05",
    "fail_streak": 0
   }
  ]
