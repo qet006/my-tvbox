@@ -66,13 +66,13 @@
    "api": "https://api.guangsuapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 117542,
+   "total": 117648,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:12:02",
+   "last_update_at": "2026-11-07 01:26:01",
    "pinned": 4,
    "source_note": "用户指定置顶",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
@@ -83,13 +83,13 @@
    "api": "https://subocaiji.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 117469,
+   "total": 117575,
    "score": 95.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:16:07",
+   "last_update_at": "2026-11-07 01:01:07",
    "pinned": 5,
    "source_note": "用户指定置顶",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
@@ -100,13 +100,13 @@
    "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 117574,
+   "total": 117680,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:16:02",
+   "last_update_at": "2026-11-07 01:02:03",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -115,13 +115,13 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 117528,
+   "total": 117634,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:16:02",
+   "last_update_at": "2026-11-06 23:48:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -130,13 +130,13 @@
    "api": "https://hhzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 116635,
+   "total": 116741,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:12:02",
+   "last_update_at": "2026-11-07 01:24:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -145,13 +145,13 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 74506,
+   "total": 74540,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 09:54:31",
+   "last_update_at": "2026-11-06 23:53:18",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -160,13 +160,13 @@
    "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
    "type": 3,
    "searchable": 1,
-   "total": 116465,
+   "total": 116571,
    "score": 95.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:15:02",
+   "last_update_at": "2026-11-06 23:51:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -181,7 +181,7 @@
    "added": "2026-10-22",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-05 10:30:42",
+   "last_update_at": "2026-11-06 10:30:41",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -191,13 +191,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 105061,
+   "total": 105129,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-05 13:00:10",
+   "last_update_at": "2026-11-06 13:00:12",
    "last_fail": "2026-11-02"
   },
   {
@@ -207,13 +207,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 67591,
+   "total": 67610,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-05 23:49:42"
+   "last_update_at": "2026-11-07 00:07:49"
   },
   {
    "key": "rycjapi",
@@ -222,13 +222,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 89320,
+   "total": 89406,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:15:26",
+   "last_update_at": "2026-11-07 01:22:33",
    "last_fail": "2026-10-31"
   },
   {
@@ -238,13 +238,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 116950,
+   "total": 117056,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-06",
    "fail_streak": 0,
-   "last_update_at": "2026-11-06 10:16:03"
+   "last_update_at": "2026-11-06 23:48:03"
   },
   {
    "key": "mtzy",
@@ -252,13 +252,13 @@
    "api": "https://mtzy.me/api.php/provide/vod/",
    "type": 3,
    "searchable": 0,
-   "total": 152028,
+   "total": 152102,
    "score": 30.0,
    "status": "active",
    "added": "2026-10-22",
-   "last_ok": "2026-11-05",
-   "fail_streak": 1,
-   "last_update_at": "2026-11-05 22:53:30",
+   "last_ok": "2026-11-06",
+   "fail_streak": 0,
+   "last_update_at": "2026-11-06 22:23:49",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-06"
   },
@@ -437,8 +437,8 @@
   "retired": 13,
   "last_run": "2026-11-06",
   "last_changed": {
-   "ok": 12,
-   "degraded": 1,
+   "ok": 13,
+   "degraded": 0,
    "retired": 0,
    "revived": 0
   }
