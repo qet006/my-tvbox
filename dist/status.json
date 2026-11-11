@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T17:50:40Z",
+ "updated": "2026-11-11T01:57:59Z",
  "counts": {
   "active": 12,
   "searchable": 12,
@@ -15,7 +15,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 117989,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -25,7 +25,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 117916,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -35,7 +35,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 118021,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -45,7 +45,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 117975,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -55,7 +55,7 @@
    "score": 100.0,
    "searchable": 1,
    "total": 117082,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -64,8 +64,8 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 74804,
-   "last_ok": "2026-11-10",
+   "total": 74822,
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -75,7 +75,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 116912,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -85,7 +85,7 @@
    "score": 95.0,
    "searchable": 1,
    "total": 15009,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -95,7 +95,7 @@
    "score": 0,
    "searchable": 1,
    "total": 105266,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -105,7 +105,7 @@
    "score": null,
    "searchable": 1,
    "total": 67647,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -115,7 +115,7 @@
    "score": 0,
    "searchable": 1,
    "total": 89695,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   },
   {
@@ -125,7 +125,7 @@
    "score": null,
    "searchable": 1,
    "total": 117397,
-   "last_ok": "2026-11-10",
+   "last_ok": "2026-11-11",
    "fail_streak": 0
   }
  ]
