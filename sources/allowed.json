@@ -67,15 +67,16 @@
    "type": 3,
    "searchable": 1,
    "total": 118599,
-   "score": 100.0,
+   "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-18",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-18 11:36:04",
    "pinned": 4,
    "source_note": "用户指定置顶",
-   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
+   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
+   "last_fail": "2026-11-18"
   },
   {
    "key": "subo",
@@ -84,14 +85,30 @@
    "type": 3,
    "searchable": 1,
    "total": 118526,
-   "score": 95.0,
+   "score": 70.0,
+   "status": "active",
+   "added": "2026-10-22",
+   "last_ok": "2026-11-18",
+   "fail_streak": 1,
+   "last_update_at": "2026-11-18 11:36:08",
+   "pinned": 5,
+   "source_note": "用户指定置顶",
+   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
+   "last_fail": "2026-11-18"
+  },
+  {
+   "key": "jyzy",
+   "name": "金鹰资源",
+   "api": "https://jyzyapi.com/api.php/provide/vod/",
+   "type": 3,
+   "searchable": 1,
+   "total": 118672,
+   "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-18",
    "fail_streak": 0,
-   "last_update_at": "2026-11-18 11:36:08",
-   "pinned": 5,
-   "source_note": "用户指定置顶",
+   "last_update_at": "2026-11-19 00:56:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -101,28 +118,14 @@
    "type": 3,
    "searchable": 1,
    "total": 118631,
-   "score": 100.0,
+   "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-18",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-18 11:38:04",
-   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
-  },
-  {
-   "key": "jyzy",
-   "name": "金鹰资源",
-   "api": "https://jyzyapi.com/api.php/provide/vod/",
-   "type": 3,
-   "searchable": 1,
-   "total": 118585,
-   "score": 100.0,
-   "status": "active",
-   "added": "2026-10-22",
-   "last_ok": "2026-11-18",
-   "fail_streak": 0,
-   "last_update_at": "2026-11-18 11:38:05",
-   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
+   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
+   "last_fail": "2026-11-18"
   },
   {
    "key": "hhzy",
@@ -131,13 +134,30 @@
    "type": 3,
    "searchable": 1,
    "total": 117692,
-   "score": 100.0,
+   "score": 75.0,
+   "status": "active",
+   "added": "2026-10-22",
+   "last_ok": "2026-11-18",
+   "fail_streak": 1,
+   "last_update_at": "2026-11-18 11:36:02",
+   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
+   "last_fail": "2026-11-18"
+  },
+  {
+   "key": "360zy",
+   "name": "360资源",
+   "api": "https://360zy.com/api.php/provide/vod/",
+   "type": 3,
+   "searchable": 1,
+   "total": 75343,
+   "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-18",
    "fail_streak": 0,
-   "last_update_at": "2026-11-18 11:36:02",
-   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
+   "last_update_at": "2026-11-18 23:50:20",
+   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
+   "last_fail": "2026-11-17"
   },
   {
    "key": "huyaapi",
@@ -146,29 +166,14 @@
    "type": 3,
    "searchable": 1,
    "total": 117522,
-   "score": 95.0,
+   "score": 70.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-18",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-18 11:39:01",
-   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
-  },
-  {
-   "key": "360zy",
-   "name": "360资源",
-   "api": "https://360zy.com/api.php/provide/vod/",
-   "type": 3,
-   "searchable": 1,
-   "total": 75298,
-   "score": 75.0,
-   "status": "active",
-   "added": "2026-10-22",
-   "last_ok": "2026-11-18",
-   "fail_streak": 0,
-   "last_update_at": "2026-11-18 11:24:58",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-17"
+   "last_fail": "2026-11-18"
   },
   {
    "key": "cxkjg",
@@ -177,14 +182,14 @@
    "type": 3,
    "searchable": 1,
    "total": 15129,
-   "score": 70.0,
+   "score": 45.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-18",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-18 10:30:48",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-13"
+   "last_fail": "2026-11-18"
   },
   {
    "key": "apiyhzy",
@@ -193,13 +198,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 105574,
+   "total": 105594,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-18",
    "fail_streak": 0,
-   "last_update_at": "2026-11-17 13:00:21",
+   "last_update_at": "2026-11-18 13:00:10",
    "last_fail": "2026-11-02"
   },
   {
@@ -209,13 +214,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 67735,
+   "total": 67744,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-18",
    "fail_streak": 0,
-   "last_update_at": "2026-11-18 11:30:41"
+   "last_update_at": "2026-11-19 00:01:44"
   },
   {
    "key": "rycjapi",
@@ -224,13 +229,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 90217,
+   "total": 90282,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-18",
    "fail_streak": 0,
-   "last_update_at": "2026-11-18 10:52:14",
+   "last_update_at": "2026-11-19 02:48:55",
    "last_fail": "2026-10-31"
   },
   {
@@ -240,13 +245,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 118007,
+   "total": 118095,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-18",
    "fail_streak": 0,
-   "last_update_at": "2026-11-18 11:24:03"
+   "last_update_at": "2026-11-19 00:56:03"
   },
   {
    "key": "jszyapi",
@@ -440,8 +445,8 @@
   "retired": 14,
   "last_run": "2026-11-18",
   "last_changed": {
-   "ok": 12,
-   "degraded": 0,
+   "ok": 6,
+   "degraded": 6,
    "retired": 0,
    "revived": 0
   }

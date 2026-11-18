@@ -18,17 +18,17 @@
    "searchable": 1
   },
   {
-   "key": "xinlang",
-   "name": "新浪资源",
-   "type": "cms",
-   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "jyzy",
    "name": "金鹰资源",
    "type": "cms",
    "api": "https://jyzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "xinlang",
+   "name": "新浪资源",
+   "type": "cms",
+   "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/",
    "searchable": 1
   },
   {
@@ -39,17 +39,17 @@
    "searchable": 1
   },
   {
-   "key": "huyaapi",
-   "name": "虎牙资源",
-   "type": "cms",
-   "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
-   "searchable": 1
-  },
-  {
    "key": "360zy",
    "name": "360资源",
    "type": "cms",
    "api": "https://360zy.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "huyaapi",
+   "name": "虎牙资源",
+   "type": "cms",
+   "api": "https://www.huyaapi.com/api.php/provide/vod/from/hym3u8/",
    "searchable": 1
   },
   {
@@ -92,7 +92,7 @@
   {
    "name": "精选直播·仅真活",
    "type": 0,
-   "url": "http://127.0.0.1:8899/dist/live.txt"
+   "url": "https://raw.githubusercontent.com/qet006/my-tvbox/main/dist/live.txt"
   }
  ],
  "tvboxDesktop": {
