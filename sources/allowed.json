@@ -67,16 +67,16 @@
    "type": 3,
    "searchable": 1,
    "total": 118686,
-   "score": 75.0,
+   "score": 50.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-19 11:12:03",
    "pinned": 4,
    "source_note": "用户指定置顶",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-18"
+   "last_fail": "2026-11-19"
   },
   {
    "key": "subo",
@@ -85,16 +85,16 @@
    "type": 3,
    "searchable": 1,
    "total": 118613,
-   "score": 70.0,
+   "score": 45.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-19 11:11:08",
    "pinned": 5,
    "source_note": "用户指定置顶",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-18"
+   "last_fail": "2026-11-19"
   },
   {
    "key": "jyzy",
@@ -102,14 +102,30 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 118672,
+   "total": 118754,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-19",
    "fail_streak": 0,
-   "last_update_at": "2026-11-19 11:08:02",
+   "last_update_at": "2026-11-20 02:30:25",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
+  },
+  {
+   "key": "360zy",
+   "name": "360资源",
+   "api": "https://360zy.com/api.php/provide/vod/",
+   "type": 3,
+   "searchable": 1,
+   "total": 75408,
+   "score": 75.0,
+   "status": "active",
+   "added": "2026-10-22",
+   "last_ok": "2026-11-19",
+   "fail_streak": 0,
+   "last_update_at": "2026-11-20 00:21:33",
+   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
+   "last_fail": "2026-11-17"
   },
   {
    "key": "xinlang",
@@ -118,14 +134,14 @@
    "type": 3,
    "searchable": 1,
    "total": 118718,
-   "score": 75.0,
+   "score": 50.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-19 11:07:03",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-18"
+   "last_fail": "2026-11-19"
   },
   {
    "key": "hhzy",
@@ -134,30 +150,14 @@
    "type": 3,
    "searchable": 1,
    "total": 117779,
-   "score": 75.0,
+   "score": 50.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-19 11:12:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-18"
-  },
-  {
-   "key": "360zy",
-   "name": "360资源",
-   "api": "https://360zy.com/api.php/provide/vod/",
-   "type": 3,
-   "searchable": 1,
-   "total": 75398,
-   "score": 75.0,
-   "status": "active",
-   "added": "2026-10-22",
-   "last_ok": "2026-11-19",
-   "fail_streak": 0,
-   "last_update_at": "2026-11-19 09:15:57",
-   "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-17"
+   "last_fail": "2026-11-19"
   },
   {
    "key": "huyaapi",
@@ -166,14 +166,14 @@
    "type": 3,
    "searchable": 1,
    "total": 117609,
-   "score": 70.0,
+   "score": 45.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-19",
-   "fail_streak": 0,
+   "fail_streak": 1,
    "last_update_at": "2026-11-19 11:09:01",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
-   "last_fail": "2026-11-18"
+   "last_fail": "2026-11-19"
   },
   {
    "key": "cxkjg",
@@ -185,9 +185,9 @@
    "score": 20.0,
    "status": "active",
    "added": "2026-10-22",
-   "last_ok": "2026-11-18",
-   "fail_streak": 2,
-   "last_update_at": "2026-11-18 10:30:48",
+   "last_ok": "2026-11-19",
+   "fail_streak": 0,
+   "last_update_at": "2026-11-19 10:30:37",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-19"
   },
@@ -198,13 +198,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 105594,
+   "total": 105610,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-19",
    "fail_streak": 0,
-   "last_update_at": "2026-11-18 13:00:10",
+   "last_update_at": "2026-11-19 13:00:08",
    "last_fail": "2026-11-02"
   },
   {
@@ -214,13 +214,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 67744,
+   "total": 67755,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-19",
    "fail_streak": 0,
-   "last_update_at": "2026-11-19 00:01:44"
+   "last_update_at": "2026-11-20 00:28:45"
   },
   {
    "key": "rycjapi",
@@ -229,13 +229,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 90288,
+   "total": 90364,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-19",
    "fail_streak": 0,
-   "last_update_at": "2026-11-19 11:15:43",
+   "last_update_at": "2026-11-20 02:09:50",
    "last_fail": "2026-10-31"
   },
   {
@@ -245,13 +245,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 118095,
+   "total": 118177,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-19",
    "fail_streak": 0,
-   "last_update_at": "2026-11-19 11:08:05"
+   "last_update_at": "2026-11-20 02:32:04"
   },
   {
    "key": "jszyapi",
@@ -445,8 +445,8 @@
   "retired": 14,
   "last_run": "2026-11-19",
   "last_changed": {
-   "ok": 11,
-   "degraded": 1,
+   "ok": 7,
+   "degraded": 5,
    "retired": 0,
    "revived": 0
   }

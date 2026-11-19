@@ -30,6 +30,15 @@
    "filterable": 1
   },
   {
+   "key": "360zy",
+   "name": "360资源",
+   "type": 3,
+   "api": "https://360zy.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "xinlang",
    "name": "新浪资源",
    "type": 3,
@@ -43,15 +52,6 @@
    "name": "火狐资源",
    "type": 3,
    "api": "https://hhzyapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "360zy",
-   "name": "360资源",
-   "type": 3,
-   "api": "https://360zy.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
@@ -115,7 +115,7 @@
   {
    "name": "精选直播·仅真活",
    "type": 0,
-   "url": "http://127.0.0.1:8899/dist/live.txt"
+   "url": "https://raw.githubusercontent.com/qet006/my-tvbox/main/dist/live.txt"
   }
  ],
  "parses": [],
