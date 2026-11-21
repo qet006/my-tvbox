@@ -1,6 +1,6 @@
 {
  "schema": "my-tvbox/sources/1",
- "updated": "2026-11-20",
+ "updated": "2026-11-21",
  "note": "只有通过四级测活（列表/搜索/详情/m3u8首行）的源才会写在这里；由 scripts/discover.py 与 scripts/check_health.py 自动维护",
  "sources": [
   {
@@ -104,13 +104,13 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 118836,
+   "total": 118844,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 02:32:02",
+   "last_update_at": "2026-11-21 11:06:06",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -123,7 +123,7 @@
    "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
    "last_update_at": "2026-11-20 23:51:35",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
@@ -135,13 +135,13 @@
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 15130,
+   "total": 15132,
    "score": 20.0,
    "status": "active",
    "added": "2026-10-22",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-20 10:30:56",
+   "last_update_at": "2026-11-21 10:30:32",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-19"
   },
@@ -156,7 +156,7 @@
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
    "last_update_at": "2026-11-20 13:00:14",
    "last_fail": "2026-11-02"
@@ -172,7 +172,7 @@
    "score": null,
    "status": "active",
    "added": "2026-10-25",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
    "last_update_at": "2026-11-21 00:08:12"
   },
@@ -183,13 +183,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 90378,
+   "total": 90419,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 02:20:55",
+   "last_update_at": "2026-11-21 11:06:57",
    "last_fail": "2026-10-31"
   },
   {
@@ -199,13 +199,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 118259,
+   "total": 118267,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 01:24:04"
+   "last_update_at": "2026-11-21 11:04:03"
   },
   {
    "key": "jszyapi",
@@ -448,11 +448,11 @@
  "stats": {
   "active": 7,
   "retired": 19,
-  "last_run": "2026-11-20",
+  "last_run": "2026-11-21",
   "last_changed": {
    "ok": 7,
    "degraded": 0,
-   "retired": 5,
+   "retired": 0,
    "revived": 0
   }
  },

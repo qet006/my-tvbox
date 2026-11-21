@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:39:14Z",
+ "updated": "2026-11-21T03:14:25Z",
  "counts": {
   "active": 7,
   "searchable": 7,
@@ -14,8 +14,8 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 118836,
-   "last_ok": "2026-11-20",
+   "total": 118844,
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   },
   {
@@ -25,7 +25,7 @@
    "score": 75.0,
    "searchable": 1,
    "total": 75480,
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   },
   {
@@ -34,8 +34,8 @@
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "score": 20.0,
    "searchable": 1,
-   "total": 15130,
-   "last_ok": "2026-11-20",
+   "total": 15132,
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   },
   {
@@ -45,7 +45,7 @@
    "score": 0,
    "searchable": 1,
    "total": 105651,
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   },
   {
@@ -55,7 +55,7 @@
    "score": null,
    "searchable": 1,
    "total": 67771,
-   "last_ok": "2026-11-20",
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   },
   {
@@ -64,8 +64,8 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90378,
-   "last_ok": "2026-11-20",
+   "total": 90419,
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   },
   {
@@ -74,8 +74,8 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118259,
-   "last_ok": "2026-11-20",
+   "total": 118267,
+   "last_ok": "2026-11-21",
    "fail_streak": 0
   }
  ]
