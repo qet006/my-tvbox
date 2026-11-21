@@ -104,13 +104,13 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 118844,
+   "total": 118914,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 11:06:06",
+   "last_update_at": "2026-11-22 01:24:03",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -119,13 +119,13 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 75480,
+   "total": 75547,
    "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-20 23:51:35",
+   "last_update_at": "2026-11-21 23:48:51",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-17"
   },
@@ -152,13 +152,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 105651,
+   "total": 105722,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-20 13:00:14",
+   "last_update_at": "2026-11-21 13:00:14",
    "last_fail": "2026-11-02"
   },
   {
@@ -168,13 +168,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 67771,
+   "total": 67779,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 00:08:12"
+   "last_update_at": "2026-11-22 00:35:06"
   },
   {
    "key": "rycjapi",
@@ -183,13 +183,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 90419,
+   "total": 90517,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 11:06:57",
+   "last_update_at": "2026-11-22 01:09:18",
    "last_fail": "2026-10-31"
   },
   {
@@ -199,13 +199,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 118267,
+   "total": 118336,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-21",
    "fail_streak": 0,
-   "last_update_at": "2026-11-21 11:04:03"
+   "last_update_at": "2026-11-22 01:24:04"
   },
   {
    "key": "jszyapi",
