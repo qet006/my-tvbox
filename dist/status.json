@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-22T10:53:47Z",
+ "updated": "2026-11-22T17:52:12Z",
  "counts": {
-  "active": 7,
-  "searchable": 7,
-  "sites_standard": 7,
-  "sites_pc": 7,
+  "active": 10,
+  "searchable": 9,
+  "sites_standard": 10,
+  "sites_pc": 10,
   "lives": 1
  },
  "sources": [
@@ -14,7 +14,7 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 118914,
+   "total": 118980,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   },
@@ -24,7 +24,27 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 75562,
+   "total": 75610,
+   "last_ok": "2026-11-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "bfzy",
+   "name": "暴风资源",
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "score": 45.0,
+   "searchable": 1,
+   "total": 166007,
+   "last_ok": "2026-11-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "apibdzy",
+   "name": "百度资源",
+   "api": "https://api.apibdzy.com/api.php/provide/vod/",
+   "score": 40.0,
+   "searchable": 1,
+   "total": 49396,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   },
@@ -34,7 +54,7 @@
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "score": 20.0,
    "searchable": 1,
-   "total": 15132,
+   "total": 15140,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   },
@@ -44,7 +64,7 @@
    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
    "score": 0,
    "searchable": 1,
-   "total": 105722,
+   "total": 105772,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   },
@@ -54,7 +74,7 @@
    "api": "https://ikunzyapi.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 67781,
+   "total": 67788,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   },
@@ -64,7 +84,7 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90518,
+   "total": 90582,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   },
@@ -74,7 +94,17 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118336,
+   "total": 118402,
+   "last_ok": "2026-11-22",
+   "fail_streak": 0
+  },
+  {
+   "key": "lzizy",
+   "name": "量子备用",
+   "api": "https://lzizy1.com/api.php/provide/vod/",
+   "score": 35.0,
+   "searchable": 0,
+   "total": 160401,
    "last_ok": "2026-11-22",
    "fail_streak": 0
   }

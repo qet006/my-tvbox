@@ -18,6 +18,20 @@
    "searchable": 1
   },
   {
+   "key": "bfzy",
+   "name": "暴风资源",
+   "type": "cms",
+   "api": "https://bfzyapi.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "apibdzy",
+   "name": "百度资源",
+   "type": "cms",
+   "api": "https://api.apibdzy.com/api.php/provide/vod/",
+   "searchable": 1
+  },
+  {
    "key": "cxkjg",
    "name": "创享资源",
    "type": "cms",
@@ -51,13 +65,20 @@
    "type": "cms",
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "searchable": 1
+  },
+  {
+   "key": "lzizy",
+   "name": "量子备用",
+   "type": "cms",
+   "api": "https://lzizy1.com/api.php/provide/vod/",
+   "searchable": 0
   }
  ],
  "lives": [
   {
    "name": "精选直播·仅真活",
    "type": 0,
-   "url": "http://127.0.0.1:8899/dist/live.txt"
+   "url": "https://raw.githubusercontent.com/qet006/my-tvbox/main/dist/live.txt"
   }
  ],
  "tvboxDesktop": {
