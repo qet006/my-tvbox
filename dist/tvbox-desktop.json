@@ -25,17 +25,17 @@
    "searchable": 1
   },
   {
-   "key": "apibdzy",
-   "name": "百度资源",
-   "type": "cms",
-   "api": "https://api.apibdzy.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "cxkjg",
    "name": "创享资源",
    "type": "cms",
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
+   "searchable": 1
+  },
+  {
+   "key": "apibdzy",
+   "name": "百度资源",
+   "type": "cms",
+   "api": "https://api.apibdzy.com/api.php/provide/vod/",
    "searchable": 1
   },
   {

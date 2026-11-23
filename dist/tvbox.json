@@ -30,19 +30,19 @@
    "filterable": 1
   },
   {
-   "key": "apibdzy",
-   "name": "百度资源",
+   "key": "cxkjg",
+   "name": "创享资源",
    "type": 3,
-   "api": "https://api.apibdzy.com/api.php/provide/vod/",
+   "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
   },
   {
-   "key": "cxkjg",
-   "name": "创享资源",
+   "key": "apibdzy",
+   "name": "百度资源",
    "type": 3,
-   "api": "https://ys.cxkjg.cn/api/provide/vod/",
+   "api": "https://api.apibdzy.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
    "filterable": 1
