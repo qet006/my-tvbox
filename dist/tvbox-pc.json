@@ -30,24 +30,6 @@
    "filterable": 1
   },
   {
-   "key": "bfzy",
-   "name": "暴风资源",
-   "type": 3,
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "apibdzy",
-   "name": "百度资源",
-   "type": 3,
-   "api": "https://api.apibdzy.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "apiyhzy",
    "name": "apiyhzy",
    "type": 3,
@@ -81,15 +63,6 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "searchable": 1,
    "quickSearch": 1,
-   "filterable": 1
-  },
-  {
-   "key": "lzizy",
-   "name": "量子备用",
-   "type": 3,
-   "api": "https://lzizy1.com/api.php/provide/vod/",
-   "searchable": 0,
-   "quickSearch": 0,
    "filterable": 1
   }
  ],

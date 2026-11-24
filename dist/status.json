@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-23T22:06:18Z",
+ "updated": "2026-11-24T06:02:49Z",
  "counts": {
-  "active": 10,
-  "searchable": 9,
-  "sites_standard": 10,
-  "sites_pc": 10,
+  "active": 7,
+  "searchable": 7,
+  "sites_standard": 7,
+  "sites_pc": 7,
   "lives": 1
  },
  "sources": [
@@ -14,8 +14,8 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 119093,
-   "last_ok": "2026-11-23",
+   "total": 119097,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
   },
   {
@@ -24,8 +24,8 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 75675,
-   "last_ok": "2026-11-23",
+   "total": 75737,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
   },
   {
@@ -34,29 +34,9 @@
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "score": 20.0,
    "searchable": 1,
-   "total": 15140,
-   "last_ok": "2026-11-23",
+   "total": 15143,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
-  },
-  {
-   "key": "bfzy",
-   "name": "暴风资源",
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "score": 0,
-   "searchable": 1,
-   "total": 166007,
-   "last_ok": "2026-11-22",
-   "fail_streak": 2
-  },
-  {
-   "key": "apibdzy",
-   "name": "百度资源",
-   "api": "https://api.apibdzy.com/api.php/provide/vod/",
-   "score": 0,
-   "searchable": 1,
-   "total": 49396,
-   "last_ok": "2026-11-22",
-   "fail_streak": 2
   },
   {
    "key": "apiyhzy",
@@ -64,8 +44,8 @@
    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
    "score": 0,
    "searchable": 1,
-   "total": 105813,
-   "last_ok": "2026-11-23",
+   "total": 105825,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
   },
   {
@@ -74,8 +54,8 @@
    "api": "https://ikunzyapi.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 67798,
-   "last_ok": "2026-11-23",
+   "total": 67804,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
   },
   {
@@ -84,8 +64,8 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90591,
-   "last_ok": "2026-11-23",
+   "total": 90594,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
   },
   {
@@ -94,19 +74,9 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118515,
-   "last_ok": "2026-11-23",
+   "total": 118538,
+   "last_ok": "2026-11-24",
    "fail_streak": 0
-  },
-  {
-   "key": "lzizy",
-   "name": "量子备用",
-   "api": "https://lzizy1.com/api.php/provide/vod/",
-   "score": 0,
-   "searchable": 0,
-   "total": 160401,
-   "last_ok": "2026-11-22",
-   "fail_streak": 2
   }
  ]
 }

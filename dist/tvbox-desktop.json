@@ -25,20 +25,6 @@
    "searchable": 1
   },
   {
-   "key": "bfzy",
-   "name": "暴风资源",
-   "type": "cms",
-   "api": "https://bfzyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
-   "key": "apibdzy",
-   "name": "百度资源",
-   "type": "cms",
-   "api": "https://api.apibdzy.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "apiyhzy",
    "name": "apiyhzy",
    "type": "cms",
@@ -65,13 +51,6 @@
    "type": "cms",
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "searchable": 1
-  },
-  {
-   "key": "lzizy",
-   "name": "量子备用",
-   "type": "cms",
-   "api": "https://lzizy1.com/api.php/provide/vod/",
-   "searchable": 0
   }
  ],
  "lives": [
