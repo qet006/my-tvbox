@@ -104,13 +104,13 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 119097,
+   "total": 119191,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-24",
    "fail_streak": 0,
-   "last_update_at": "2026-11-24 12:36:05",
+   "last_update_at": "2026-11-25 02:38:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -119,13 +119,13 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 75737,
+   "total": 75743,
    "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-24",
    "fail_streak": 0,
-   "last_update_at": "2026-11-24 13:36:04",
+   "last_update_at": "2026-11-24 23:53:38",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-17"
   },
@@ -168,13 +168,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 67804,
+   "total": 67812,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-24",
    "fail_streak": 0,
-   "last_update_at": "2026-11-24 13:40:57"
+   "last_update_at": "2026-11-24 23:55:09"
   },
   {
    "key": "rycjapi",
@@ -183,13 +183,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 90594,
+   "total": 90672,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-24",
    "fail_streak": 0,
-   "last_update_at": "2026-11-24 13:28:29",
+   "last_update_at": "2026-11-25 03:55:25",
    "last_fail": "2026-10-31"
   },
   {
@@ -199,13 +199,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 118538,
+   "total": 118613,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-24",
    "fail_streak": 0,
-   "last_update_at": "2026-11-24 13:52:02"
+   "last_update_at": "2026-11-25 03:20:03"
   },
   {
    "key": "jszyapi",
@@ -455,7 +455,7 @@
   "last_changed": {
    "ok": 7,
    "degraded": 0,
-   "retired": 3,
+   "retired": 0,
    "revived": 0
   }
  },
