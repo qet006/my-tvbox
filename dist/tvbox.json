@@ -3,6 +3,15 @@
  "logo": "",
  "sites": [
   {
+   "key": "lziapi",
+   "name": "★量子资源",
+   "type": 3,
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "searchable": 1,
+   "quickSearch": 1,
+   "filterable": 1
+  },
+  {
    "key": "jyzy",
    "name": "金鹰资源",
    "type": 3,

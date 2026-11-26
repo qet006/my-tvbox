@@ -1,21 +1,31 @@
 {
- "updated": "2026-11-25T19:59:56Z",
+ "updated": "2026-11-26T04:12:56Z",
  "counts": {
-  "active": 7,
-  "searchable": 7,
-  "sites_standard": 7,
-  "sites_pc": 7,
+  "active": 8,
+  "searchable": 8,
+  "sites_standard": 8,
+  "sites_pc": 8,
   "lives": 1
  },
  "sources": [
+  {
+   "key": "lziapi",
+   "name": "★量子资源",
+   "api": "https://cj.lziapi.com/api.php/provide/vod/",
+   "score": 25.0,
+   "searchable": 1,
+   "total": 160561,
+   "last_ok": "2026-11-26",
+   "fail_streak": 0
+  },
   {
    "key": "jyzy",
    "name": "金鹰资源",
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 119293,
-   "last_ok": "2026-11-25",
+   "total": 119297,
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   },
   {
@@ -24,8 +34,8 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 75811,
-   "last_ok": "2026-11-25",
+   "total": 75866,
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   },
   {
@@ -35,7 +45,7 @@
    "score": 20.0,
    "searchable": 1,
    "total": 15144,
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   },
   {
@@ -44,8 +54,8 @@
    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
    "score": 0,
    "searchable": 1,
-   "total": 105873,
-   "last_ok": "2026-11-25",
+   "total": 105881,
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   },
   {
@@ -55,7 +65,7 @@
    "score": null,
    "searchable": 1,
    "total": 67823,
-   "last_ok": "2026-11-25",
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   },
   {
@@ -64,8 +74,8 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90740,
-   "last_ok": "2026-11-25",
+   "total": 90742,
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   },
   {
@@ -74,8 +84,8 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118714,
-   "last_ok": "2026-11-25",
+   "total": 118732,
+   "last_ok": "2026-11-26",
    "fail_streak": 0
   }
  ]
