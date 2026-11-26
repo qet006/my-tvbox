@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-26T12:01:59Z",
+ "updated": "2026-11-26T19:41:55Z",
  "counts": {
-  "active": 8,
-  "searchable": 8,
-  "sites_standard": 8,
-  "sites_pc": 8,
+  "active": 9,
+  "searchable": 9,
+  "sites_standard": 9,
+  "sites_pc": 9,
   "lives": 1
  },
  "sources": [
@@ -12,11 +12,11 @@
    "key": "lziapi",
    "name": "★量子资源",
    "api": "https://cj.lziapi.com/api.php/provide/vod/",
-   "score": 25.0,
+   "score": 0,
    "searchable": 1,
    "total": 160561,
    "last_ok": "2026-11-26",
-   "fail_streak": 0
+   "fail_streak": 1
   },
   {
    "key": "jyzy",
@@ -24,7 +24,7 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 119297,
+   "total": 119376,
    "last_ok": "2026-11-26",
    "fail_streak": 0
   },
@@ -34,7 +34,17 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 75866,
+   "total": 75873,
+   "last_ok": "2026-11-26",
+   "fail_streak": 0
+  },
+  {
+   "key": "jszyapi",
+   "name": "极速资源",
+   "api": "https://jszyapi.com/api.php/provide/vod/",
+   "score": 50.0,
+   "searchable": 1,
+   "total": 114438,
    "last_ok": "2026-11-26",
    "fail_streak": 0
   },
@@ -54,7 +64,7 @@
    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/",
    "score": 0,
    "searchable": 1,
-   "total": 105881,
+   "total": 105882,
    "last_ok": "2026-11-26",
    "fail_streak": 0
   },
@@ -64,7 +74,7 @@
    "api": "https://ikunzyapi.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 67823,
+   "total": 67829,
    "last_ok": "2026-11-26",
    "fail_streak": 0
   },
@@ -74,7 +84,7 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90742,
+   "total": 90808,
    "last_ok": "2026-11-26",
    "fail_streak": 0
   },
@@ -84,7 +94,7 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118732,
+   "total": 118798,
    "last_ok": "2026-11-26",
    "fail_streak": 0
   }
