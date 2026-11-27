@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T19:41:55Z",
+ "updated": "2026-11-27T04:19:00Z",
  "counts": {
   "active": 9,
   "searchable": 9,
@@ -16,7 +16,7 @@
    "searchable": 1,
    "total": 160561,
    "last_ok": "2026-11-26",
-   "fail_streak": 1
+   "fail_streak": 2
   },
   {
    "key": "jyzy",
@@ -24,8 +24,8 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 119376,
-   "last_ok": "2026-11-26",
+   "total": 119393,
+   "last_ok": "2026-11-27",
    "fail_streak": 0
   },
   {
@@ -34,29 +34,29 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 75873,
-   "last_ok": "2026-11-26",
+   "total": 75930,
+   "last_ok": "2026-11-27",
    "fail_streak": 0
   },
   {
    "key": "jszyapi",
    "name": "极速资源",
    "api": "https://jszyapi.com/api.php/provide/vod/",
-   "score": 50.0,
+   "score": 25.0,
    "searchable": 1,
    "total": 114438,
    "last_ok": "2026-11-26",
-   "fail_streak": 0
+   "fail_streak": 1
   },
   {
    "key": "cxkjg",
    "name": "创享资源",
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
-   "score": 20.0,
+   "score": 0,
    "searchable": 1,
    "total": 15144,
    "last_ok": "2026-11-26",
-   "fail_streak": 0
+   "fail_streak": 1
   },
   {
    "key": "apiyhzy",
@@ -65,7 +65,7 @@
    "score": 0,
    "searchable": 1,
    "total": 105882,
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "fail_streak": 0
   },
   {
@@ -75,7 +75,7 @@
    "score": null,
    "searchable": 1,
    "total": 67829,
-   "last_ok": "2026-11-26",
+   "last_ok": "2026-11-27",
    "fail_streak": 0
   },
   {
@@ -84,8 +84,8 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90808,
-   "last_ok": "2026-11-26",
+   "total": 90811,
+   "last_ok": "2026-11-27",
    "fail_streak": 0
   },
   {
@@ -94,8 +94,8 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118798,
-   "last_ok": "2026-11-26",
+   "total": 118822,
+   "last_ok": "2026-11-27",
    "fail_streak": 0
   }
  ]
