@@ -105,13 +105,13 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 119464,
+   "total": 119574,
    "score": 100.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-28 11:42:04",
+   "last_update_at": "2026-11-29 01:44:02",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id"
   },
   {
@@ -120,13 +120,13 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "type": 3,
    "searchable": 1,
-   "total": 76003,
+   "total": 76010,
    "score": 75.0,
    "status": "active",
    "added": "2026-10-22",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-28 11:42:35",
+   "last_update_at": "2026-11-28 23:50:17",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-17"
   },
@@ -142,7 +142,7 @@
    "added": "2026-10-22",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-28 10:30:51",
+   "last_update_at": "2026-11-28 23:30:00",
    "categories_removed_reason": "中文分类名会导致客户端分类页返回空；改用接口 class 的 type_id",
    "last_fail": "2026-11-27"
   },
@@ -153,13 +153,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 105939,
+   "total": 105972,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-27 13:00:11",
+   "last_update_at": "2026-11-28 13:00:11",
    "last_fail": "2026-11-02"
   },
   {
@@ -169,13 +169,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 67848,
+   "total": 67856,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-27 23:58:10"
+   "last_update_at": "2026-11-29 00:28:21"
   },
   {
    "key": "rycjapi",
@@ -184,13 +184,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 90887,
+   "total": 91018,
    "score": 0,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-28 11:50:31",
+   "last_update_at": "2026-11-29 01:53:54",
    "last_fail": "2026-10-31"
   },
   {
@@ -200,13 +200,13 @@
    "type": 3,
    "searchable": 1,
    "categories": [],
-   "total": 118887,
+   "total": 118996,
    "score": null,
    "status": "active",
    "added": "2026-10-25",
    "last_ok": "2026-11-28",
    "fail_streak": 0,
-   "last_update_at": "2026-11-28 11:48:04"
+   "last_update_at": "2026-11-29 00:32:03"
   },
   {
    "key": "xinlang",
@@ -457,7 +457,7 @@
   "last_changed": {
    "ok": 7,
    "degraded": 0,
-   "retired": 1,
+   "retired": 0,
    "revived": 0
   }
  },
