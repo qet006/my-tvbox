@@ -21,15 +21,6 @@
    "filterable": 1
   },
   {
-   "key": "jszyapi",
-   "name": "极速资源",
-   "type": 3,
-   "api": "https://jszyapi.com/api.php/provide/vod/",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
-  },
-  {
    "key": "cxkjg",
    "name": "创享资源",
    "type": 3,

@@ -1,10 +1,10 @@
 {
- "updated": "2026-11-27T19:32:29Z",
+ "updated": "2026-11-28T03:56:54Z",
  "counts": {
-  "active": 8,
-  "searchable": 8,
-  "sites_standard": 8,
-  "sites_pc": 8,
+  "active": 7,
+  "searchable": 7,
+  "sites_standard": 7,
+  "sites_pc": 7,
   "lives": 1
  },
  "sources": [
@@ -14,8 +14,8 @@
    "api": "https://jyzyapi.com/api.php/provide/vod/",
    "score": 100.0,
    "searchable": 1,
-   "total": 119460,
-   "last_ok": "2026-11-27",
+   "total": 119464,
+   "last_ok": "2026-11-28",
    "fail_streak": 0
   },
   {
@@ -24,19 +24,9 @@
    "api": "https://360zy.com/api.php/provide/vod/",
    "score": 75.0,
    "searchable": 1,
-   "total": 75948,
-   "last_ok": "2026-11-27",
+   "total": 76003,
+   "last_ok": "2026-11-28",
    "fail_streak": 0
-  },
-  {
-   "key": "jszyapi",
-   "name": "极速资源",
-   "api": "https://jszyapi.com/api.php/provide/vod/",
-   "score": 0,
-   "searchable": 1,
-   "total": 114438,
-   "last_ok": "2026-11-26",
-   "fail_streak": 2
   },
   {
    "key": "cxkjg",
@@ -44,8 +34,8 @@
    "api": "https://ys.cxkjg.cn/api/provide/vod/",
    "score": 0,
    "searchable": 1,
-   "total": 15149,
-   "last_ok": "2026-11-27",
+   "total": 15150,
+   "last_ok": "2026-11-28",
    "fail_streak": 0
   },
   {
@@ -55,7 +45,7 @@
    "score": 0,
    "searchable": 1,
    "total": 105939,
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "fail_streak": 0
   },
   {
@@ -65,7 +55,7 @@
    "score": null,
    "searchable": 1,
    "total": 67848,
-   "last_ok": "2026-11-27",
+   "last_ok": "2026-11-28",
    "fail_streak": 0
   },
   {
@@ -74,8 +64,8 @@
    "api": "https://cj.rycjapi.com/api.php/provide/vod",
    "score": 0,
    "searchable": 1,
-   "total": 90876,
-   "last_ok": "2026-11-27",
+   "total": 90887,
+   "last_ok": "2026-11-28",
    "fail_streak": 0
   },
   {
@@ -84,8 +74,8 @@
    "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
    "score": null,
    "searchable": 1,
-   "total": 118883,
-   "last_ok": "2026-11-27",
+   "total": 118887,
+   "last_ok": "2026-11-28",
    "fail_streak": 0
   }
  ]

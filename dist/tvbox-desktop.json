@@ -18,13 +18,6 @@
    "searchable": 1
   },
   {
-   "key": "jszyapi",
-   "name": "极速资源",
-   "type": "cms",
-   "api": "https://jszyapi.com/api.php/provide/vod/",
-   "searchable": 1
-  },
-  {
    "key": "cxkjg",
    "name": "创享资源",
    "type": "cms",
